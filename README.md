@@ -41,7 +41,7 @@ Table A describes how the *paper's authors coded four cases*; Table B is *measur
 | MLP | 82,332 | 0.816 | 0.985 | 0.892 | 0.273 |
 | isolation forest + rule | 82,332 | 0.731 | 0.851 | 0.786 | 0.384 |
 
-*Dataset: UNSW-NB15 official training/testing partitions (independent benchmark). Split: provider's held-out test file, n=82,332 (45,332 attack, 37,000 normal). Positive class: label 1 (attack). Thresholds: each detector's own, chosen to maximise F1 on a validation split of the training file (reference models use a fixed 0.5). Run ID: `20261126T020840Z-s42`, seed 42, source revision `57958ae639`.* Undefined ratios are `n/a`. Download: [results/unsw-nb15-example/20261126T020840Z-s42/table_b.csv](results/unsw-nb15-example/20261126T020840Z-s42/table_b.csv) (adds accuracy and confusion counts). Errors and timing: [docs/results.md](docs/results.md).
+*Dataset: UNSW-NB15 official training/testing partitions (independent benchmark). Split: provider's held-out test file, n=82,332 (45,332 attack, 37,000 normal). Positive class: label 1 (attack). Thresholds: each detector's own, chosen to maximise F1 on a validation split of the training file (reference models use a fixed 0.5). Run ID: `20261126T025949Z-s42`, seed 42, source revision `af83f33393`.* Undefined ratios are `n/a`. Download: [results/unsw-nb15-example/20261126T025949Z-s42/table_b.csv](results/unsw-nb15-example/20261126T025949Z-s42/table_b.csv) (adds accuracy and confusion counts). Errors and timing: [docs/results.md](docs/results.md).
 <!-- END GENERATED:table-b -->
 
 Read Table B carefully: false-positive rates of 17% to 38% are not deployable; adding the rule to the anomaly detector changed F1 by -0.001; 10.4% of test rows have an exact

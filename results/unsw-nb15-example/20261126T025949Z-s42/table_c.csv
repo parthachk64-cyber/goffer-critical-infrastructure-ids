@@ -1,0 +1,7 @@
+model,tp,fp,tn,fn,benign_records,false_alerts_per_1000_benign,batch_size,timing_unit,p50_ms,p95_ms,timing_samples_saved,timing_status
+majority_reference,45332,37000,0,0,37000,1000.0,256,milliseconds per batch (wall clock),0.0029999973776284605,0.0145700025313999,yes,measured
+rule_baseline,29727,6508,30492,15605,37000,175.8918918918919,256,milliseconds per batch (wall clock),0.5841500023961999,1.0168750013690442,yes,measured
+decision_tree,44130,11153,25847,1202,37000,301.43243243243245,256,milliseconds per batch (wall clock),0.2672499977052212,0.5330200005118967,yes,measured
+isolation_forest,38456,13893,23107,6876,37000,375.4864864864865,256,milliseconds per batch (wall clock),36.92060000321362,48.59004000572894,yes,measured
+mlp,44635,10089,26911,697,37000,272.6756756756757,256,milliseconds per batch (wall clock),0.6278000000747852,1.5739850034151452,yes,measured
+hybrid_iso_rule,38559,14196,22804,6773,37000,383.6756756756757,256,milliseconds per batch (wall clock),40.89764999662293,50.29748499982816,yes,measured

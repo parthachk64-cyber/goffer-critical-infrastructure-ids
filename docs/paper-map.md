@@ -65,7 +65,7 @@ model observations. See `data/cases.csv` for sector-by-sector independent verifi
 
 | Table | Page | Subject | Companion handling |
 |---|---|---|---|
-| 1 | 1673 | Energy: Colonial Pipeline, Ukraine grid, Triton, BlackEnergy | `cases.csv` rows 1-4; several ticks (for example AI-enhanced malware for Triton) are not supported by sources read |
+| 1 | 1673 | Energy: Colonial Pipeline, Ukraine grid, Triton, BlackEnergy | `cases.csv` rows 1-4; several ticks (for example AI-enhanced malware for Triton) are not supported by sources read; the authors' tick matrix is transcribed cell by cell in `data/paper/energy_case_matrix.csv` and counted in `data/paper/energy_case_counts.csv` (README Table A: Phishing 3 of 4, Ransomware deployment 1 of 4, SCADA exploitation 2 of 4; paper reports, counts derived here). Checked against the page image; the Ukraine 2015/2016 entry is one column |
 | 2 | 1674 | Finance: UAE deepfake fraud, market manipulation, AI phishing, AI botnets | `cases.csv`; only the UAE case names an incident |
 | 3 | 1675 | Government/defense: SolarWinds, Stuxnet, Chinese espionage, Russian disinformation | `cases.csv`; "AI-powered malware" for Stuxnet and SolarWinds is an author claim |
 | 4 | 1675-1676 | Telecom/smart cities: Mirai, water hack, AI telecom fraud, IoT DDoS on 5G | `cases.csv` |

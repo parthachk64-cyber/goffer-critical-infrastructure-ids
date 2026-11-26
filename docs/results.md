@@ -9,18 +9,18 @@ Metric definitions: positive class = label 1 (attack); precision, recall, F1, FP
 Generated from the committed benchmark run by `python -m infra_ids report --run results/unsw-nb15-example --check` (read-only) or `--update-readme` (rewrite).
 
 <!-- BEGIN GENERATED:table-c -->
-**Table C. Errors and inference time: UNSW-NB15 official training/testing partitions (independent benchmark), run `20261126T020840Z-s42`**
+**Table C. Errors and inference time: UNSW-NB15 official training/testing partitions (independent benchmark), run `20261126T025949Z-s42`**
 
 | Model | TP | FP | TN | FN | False alerts per 1,000 benign | p50 (ms/batch) | p95 (ms/batch) | Batch | Timing status |
 |---|---|---|---|---|---|---|---|---|---|
-| majority reference | 45,332 | 37,000 | 0 | 0 | 1000.0 | 0.01 | 0.01 | 256 | measured; raw samples not saved (run predates sample logging) |
-| rule baseline | 29,727 | 6,508 | 30,492 | 15,605 | 175.9 | 2.08 | 6.71 | 256 | measured; raw samples not saved (run predates sample logging) |
-| decision tree | 44,130 | 11,153 | 25,847 | 1,202 | 301.4 | 0.56 | 2.97 | 256 | measured; raw samples not saved (run predates sample logging) |
-| isolation forest | 38,456 | 13,893 | 23,107 | 6,876 | 375.5 | 166.29 | 284.10 | 256 | measured; raw samples not saved (run predates sample logging) |
-| MLP | 44,635 | 10,089 | 26,911 | 697 | 272.7 | 2.41 | 6.27 | 256 | measured; raw samples not saved (run predates sample logging) |
-| isolation forest + rule | 38,559 | 14,196 | 22,804 | 6,773 | 383.7 | 167.88 | 274.47 | 256 | measured; raw samples not saved (run predates sample logging) |
+| majority reference | 45,332 | 37,000 | 0 | 0 | 1000.0 | 0.00 | 0.01 | 256 | measured |
+| rule baseline | 29,727 | 6,508 | 30,492 | 15,605 | 175.9 | 0.58 | 1.02 | 256 | measured |
+| decision tree | 44,130 | 11,153 | 25,847 | 1,202 | 301.4 | 0.27 | 0.53 | 256 | measured |
+| isolation forest | 38,456 | 13,893 | 23,107 | 6,876 | 375.5 | 36.92 | 48.59 | 256 | measured |
+| MLP | 44,635 | 10,089 | 26,911 | 697 | 272.7 | 0.63 | 1.57 | 256 | measured |
+| isolation forest + rule | 38,559 | 14,196 | 22,804 | 6,773 | 383.7 | 40.90 | 50.30 | 256 | measured |
 
-*Denominators: benign records = FP + TN = 37,000; test N = 82,332. Timing is wall-clock inference on one batch (milliseconds per batch, unit as in the column headers), measured separately from any simulated triage delay; hardware and warm-up/repeat counts are in the run's `latency.json` and report. CSVs: [results/unsw-nb15-example/20261126T020840Z-s42/table_c.csv](results/unsw-nb15-example/20261126T020840Z-s42/table_c.csv).*
+*Denominators: benign records = FP + TN = 37,000; test N = 82,332. Timing is wall-clock inference on one batch (milliseconds per batch, unit as in the column headers), measured separately from any simulated triage delay; hardware and warm-up/repeat counts are in the run's `latency.json` and report. CSVs: [results/unsw-nb15-example/20261126T025949Z-s42/table_c.csv](results/unsw-nb15-example/20261126T025949Z-s42/table_c.csv).*
 
 **Hybrid versus its underlying detector (same records)**
 

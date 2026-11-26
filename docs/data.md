@@ -55,3 +55,15 @@ transformations: signed log1p then standardisation (training mean/std, clipped a
 One row per incident or scenario in the article's Tables 1-7, with the author claim, an independent source URL **only if one was opened or returned by a search
 in this work**, an incident-evidence status, a separate AI-use evidence status, and observed-versus-hypothetical impact. Regenerate with `python data/build_cases.py`.
 Rules: a case is context, not a labelled sample; no model label is derived from it; no interview text is invented. Where independent support is missing the row says so.
+
+## Paper case matrix: `data/paper/energy_case_matrix.csv`
+
+The authors' Table 1 (printed p. 1673), transcribed cell by cell: `marked` (a printed check mark), `not_marked` (a printed cross) or empty (illegible or unspecified).
+An empty cell counts toward neither "marked" nor "examined". `data/paper/energy_case_counts.csv` is generated from it by `report --update-readme`; a test fails if they drift apart.
+These are the authors' codings of four selected cases, not incident verification and not a rate across the sector.
+
+## Timing samples
+
+`latency.json` in each new run stores the benchmark environment, batch size, warm-up and repeat counts, p50/p95 and the raw per-repetition samples (`samples_ms`). Runs made before sample logging
+report p50/p95 only, and Table C says so instead of implying samples exist.
+

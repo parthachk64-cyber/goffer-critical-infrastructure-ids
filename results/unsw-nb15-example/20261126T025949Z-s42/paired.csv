@@ -1,0 +1,2 @@
+underlying,hybrid,test_n,underlying_threshold,hybrid_threshold,gained_true_detections,lost_true_detections,net_extra_true_detections,gained_false_alerts,lost_false_alerts,net_extra_false_alerts,run_id
+isolation_forest,hybrid_iso_rule,82332,0.7344812063920775,0.7316516799925958,103,0,103,303,0,303,20261126T025949Z-s42
