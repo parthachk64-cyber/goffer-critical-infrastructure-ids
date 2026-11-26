@@ -1,0 +1,42 @@
+cff-version: 1.2.0
+message: "To cite the software, use the authors block. The preferred citation is the source article, whose nine authors did not write this software."
+title: "infra-ids: an independent research companion for AI-enhanced cyber threat detection in critical infrastructure"
+type: software
+version: 0.1.0
+license: MIT
+repository-code: "https://github.com/parthachk64-cyber/goffer-critical-infrastructure-ids"
+authors:
+  - family-names: Chakraborty
+    given-names: Partha
+    orcid: "https://orcid.org/0009-0006-3203-8902"
+preferred-citation:
+  type: article
+  doi: "10.63332/joph.v5i3.965"
+  title: "AI-Enhanced Cyber Threat Detection and Response Advancing National Security in Critical Infrastructure"
+  journal: "Journal of Posthumanism"
+  volume: 5
+  issue: 3
+  start: 1667
+  end: 1689
+  year: 2025
+  url: "https://posthumanism.co.uk/jp/article/view/965"
+  authors:
+    - family-names: Goffer
+      given-names: Mohammad Abdul
+    - family-names: Uddin
+      given-names: Md Salah
+    - family-names: kaur
+      given-names: Jobanpreet
+    - family-names: Hasan
+      given-names: Syed Nazmul
+    - family-names: Barikdar
+      given-names: Clinton Ronjon
+    - family-names: Hassan
+      given-names: Jahid
+    - family-names: Das
+      given-names: Niropam
+    - family-names: Chakraborty
+      given-names: Partha
+      orcid: "https://orcid.org/0009-0006-3203-8902"
+    - family-names: Hasan
+      given-names: Rakibul

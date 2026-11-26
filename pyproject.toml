@@ -1,0 +1,46 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "infra-ids"
+version = "0.1.0"
+description = "Independent research companion for 'AI-Enhanced Cyber Threat Detection and Response Advancing National Security in Critical Infrastructure' (J. Posthumanism 2025): an offline, defensive detector comparison on pre-extracted flow records."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+authors = [{ name = "Partha Chakraborty" }]
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.1",
+    "scikit-learn>=1.4",
+    "matplotlib>=3.8",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0", "pytest-cov>=5.0", "ruff==0.17.5"]
+
+[project.scripts]
+infra-ids = "infra_ids.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"
+
+[tool.coverage.run]
+source = ["infra_ids"]
+omit = ["*/__main__.py"]
+
+[tool.ruff]
+line-length = 110
+src = ["src", "tests"]
+
+[tool.ruff.lint.isort]
+known-first-party = ["infra_ids", "tests"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B"]
+ignore = ["E501"]
