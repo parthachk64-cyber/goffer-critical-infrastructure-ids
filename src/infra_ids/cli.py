@@ -32,6 +32,32 @@ def _benchmark(args) -> Path:
     )  # fmt: skip
 
 
+def _report(args) -> int:
+    from infra_ids.results import update_or_check
+
+    run = resolve_run(args.run)
+    if args.check and args.update_readme:
+        print("error: --check is read-only and cannot be combined with --update-readme", file=sys.stderr)
+        return 2
+    if not (args.check or args.update_readme):
+        print(f"report written: {write_report(run)}")
+        return 0
+    if not args.check:
+        write_report(run)
+    try:
+        rel = run.resolve().relative_to(Path.cwd().resolve()).as_posix()
+    except ValueError:
+        rel = run.as_posix()
+    rel = args.link_base or rel
+    problems = update_or_check(run, Path(args.readme), Path(args.results_md), Path(args.energy_matrix),
+                               Path(args.energy_counts), args.check, rel)  # fmt: skip
+    if problems:
+        print("stale generated content:\n  " + "\n  ".join(problems), file=sys.stderr)
+        return 1
+    print("generated sections are current" if args.check else f"README and docs/results.md updated from {rel}")
+    return 0
+
+
 def build_parser() -> argparse.ArgumentParser:
     ap = argparse.ArgumentParser(prog="infra_ids", description="Offline defensive flow-record detector comparison.")
     sub = ap.add_subparsers(dest="command", required=True)
@@ -46,6 +72,13 @@ def build_parser() -> argparse.ArgumentParser:
     b.add_argument("--max-alerts", type=int, default=5000, help="alert queue capacity")
     r = sub.add_parser("report", help="regenerate tables, plots and report.md from a saved run")
     r.add_argument("--run", required=True, help="run directory, or a base directory with a LATEST pointer")
+    r.add_argument("--update-readme", action="store_true", help="rewrite the generated sections of README.md and docs/results.md")
+    r.add_argument("--check", action="store_true", help="read-only: exit 1 if generated sections or CSVs are stale")
+    r.add_argument("--link-base", help="repo-relative directory to cite as the run's published location (default: the run path)")
+    r.add_argument("--readme", default="README.md")
+    r.add_argument("--results-md", default="docs/results.md")
+    r.add_argument("--energy-matrix", default="data/paper/energy_case_matrix.csv")
+    r.add_argument("--energy-counts", default="data/paper/energy_case_counts.csv")
     return ap
 
 
@@ -53,9 +86,7 @@ def main(argv: list[str] | None = None) -> int:
     args = build_parser().parse_args(argv)
     try:
         if args.command == "report":
-            run = resolve_run(args.run)
-            print(f"report written: {write_report(run)}")
-            return 0
+            return _report(args)
         run = _demo(args) if args.command == "demo" else _benchmark(args)
         print(f"run complete: {run}\nreport: {run / 'report.md'}")
         return 0

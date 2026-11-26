@@ -12,22 +12,41 @@ and none exists in the sources checked. The article is credited separately in [C
 **What you can run:** an offline detector comparison, an inspectable alert, a local analyst-disposition log, and a report that regenerates every table and plot from saved files.
 It never touches live networks, payloads or enforcement tools.
 
-## One measured result (UNSW-NB15 official partitions, independent benchmark)
+## Results
 
-Held-out test file, 82,332 flows, positive class = attack (prevalence 0.551), seed 42. Source: `results/unsw-nb15-example/`.
+Counts and rates below are generated from saved files by `python -m infra_ids report --run <run> --update-readme`; `--check` fails CI if they go stale.
+Table A describes how the *paper's authors coded four cases*; Table B is *measured in this repository* on one public benchmark. They are different kinds of evidence and are never combined.
 
-| model | precision | recall | F1 | false-positive rate | average precision |
+<!-- BEGIN GENERATED:table-a -->
+**Table A. What the paper records in its four energy cases**
+
+| Feature marked by the authors | Case columns marked | Case columns examined |
+|---|---|---|
+| Phishing | 3 | 4 |
+| Ransomware deployment | 1 | 4 |
+| SCADA exploitation | 2 | 4 |
+
+*Counts derived from the authors' case matrix* (paper Table 1, printed p. 1673; columns: Colonial Pipeline 2021, Ukraine power grid 2015/2016 as one column, Triton 2017, BlackEnergy 2014). Each count describes how the authors coded four selected cases; it cannot estimate how often a threat occurs across the energy sector and is not independent incident verification. All nine features: [data/paper/energy_case_counts.csv](data/paper/energy_case_counts.csv).
+<!-- END GENERATED:table-a -->
+
+<!-- BEGIN GENERATED:table-b -->
+**Table B. How the six detectors performed on the same held-out records: Detectors on the UNSW-NB15 test partition**
+
+| Model | Test N | Precision | Recall | F1 | False-positive rate |
 |---|---|---|---|---|---|
-| majority reference | 0.551 | 1.000 | 0.710 | 1.000 | n/a |
-| rule baseline | 0.820 | 0.656 | 0.729 | 0.176 | n/a |
-| decision tree | 0.798 | 0.974 | 0.877 | 0.301 | 0.977 |
-| isolation forest | 0.735 | 0.848 | 0.787 | 0.375 | 0.801 |
-| MLP | 0.816 | 0.985 | 0.892 | 0.273 | 0.985 |
-| isolation forest + rule | 0.731 | 0.851 | 0.786 | 0.384 | 0.816 |
+| majority reference | 82,332 | 0.551 | 1.000 | 0.710 | 1.000 |
+| rule baseline | 82,332 | 0.820 | 0.656 | 0.729 | 0.176 |
+| decision tree | 82,332 | 0.798 | 0.973 | 0.877 | 0.301 |
+| isolation forest | 82,332 | 0.735 | 0.848 | 0.787 | 0.375 |
+| MLP | 82,332 | 0.816 | 0.985 | 0.892 | 0.273 |
+| isolation forest + rule | 82,332 | 0.731 | 0.851 | 0.786 | 0.384 |
 
-Read it carefully: a 27% to 38% false-positive rate is not deployable; adding the rule to the anomaly detector changed F1 by -0.001; and 10.4% of test rows have an
-exact feature duplicate in the training file (524 with a conflicting label), which is why every report repeats the metrics without them.
-This is one lab dataset and says nothing about national-security outcomes. Details: [docs/results.md](docs/results.md).
+*Dataset: UNSW-NB15 official training/testing partitions (independent benchmark). Split: provider's held-out test file, n=82,332 (45,332 attack, 37,000 normal). Positive class: label 1 (attack). Thresholds: each detector's own, chosen to maximise F1 on a validation split of the training file (reference models use a fixed 0.5). Run ID: `20261126T020840Z-s42`, seed 42, source revision `57958ae639`.* Undefined ratios are `n/a`. Download: [results/unsw-nb15-example/20261126T020840Z-s42/table_b.csv](results/unsw-nb15-example/20261126T020840Z-s42/table_b.csv) (adds accuracy and confusion counts). Errors and timing: [docs/results.md](docs/results.md).
+<!-- END GENERATED:table-b -->
+
+Read Table B carefully: false-positive rates of 17% to 38% are not deployable; adding the rule to the anomaly detector changed F1 by -0.001; 10.4% of test rows have an exact
+feature duplicate in the training file (524 with a conflicting label), which is why every report repeats the metrics without them. This is one lab dataset and says nothing about
+national-security outcomes. Details: [docs/results.md](docs/results.md).
 
 ## Evidence labels
 

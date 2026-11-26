@@ -1,0 +1,10 @@
+feature,colonial_pipeline_2021,ukraine_power_grid_2015_2016,triton_2017,blackenergy_2014
+Phishing,marked,marked,not_marked,marked
+Ransomware deployment,marked,not_marked,not_marked,not_marked
+SCADA exploitation,not_marked,marked,marked,not_marked
+State-sponsored cyberattack,not_marked,marked,marked,marked
+Zero-day vulnerability exploit,marked,not_marked,marked,marked
+Disruption of power grid operations,not_marked,marked,marked,marked
+Data exfiltration & espionage,marked,not_marked,marked,not_marked
+Use of AI-enhanced malware,not_marked,not_marked,marked,not_marked
+Insider threats,not_marked,not_marked,marked,not_marked

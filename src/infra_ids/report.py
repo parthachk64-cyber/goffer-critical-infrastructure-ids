@@ -32,6 +32,9 @@ def resolve_run(path: str | Path) -> Path:
         run = p / latest.read_text(encoding="utf-8").strip()
         if (run / "manifest.json").exists():
             return run
+    subs = sorted(d for d in p.iterdir() if d.is_dir() and (d / "manifest.json").exists()) if p.is_dir() else []
+    if subs:  # a directory of runs without a LATEST pointer: run ids start with a UTC timestamp, so the last sorts newest
+        return subs[-1]
     raise FileNotFoundError(f"no run found at {path} (expected manifest.json or a LATEST pointer)")
 
 
@@ -181,4 +184,7 @@ Public flow-record accuracy is not a national-security or operational-infrastruc
 source article about deployment, interviews or sector impact can be evaluated from this data.
 """
     (run / "report.md").write_text(text, encoding="utf-8")
+    from infra_ids.results import write_result_tables
+
+    write_result_tables(run)
     return run / "report.md"

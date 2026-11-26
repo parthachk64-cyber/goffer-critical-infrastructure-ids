@@ -1,0 +1,7 @@
+model,tp,fp,tn,fn,benign_records,false_alerts_per_1000_benign,batch_size,timing_unit,p50_ms,p95_ms,timing_samples_saved,timing_status
+majority_reference,45332,37000,0,0,37000,1000.0,256,milliseconds per batch (wall clock),0.005200003215577453,0.006019998181727714,no,measured; raw samples not saved (run predates sample logging)
+rule_baseline,29727,6508,30492,15605,37000,175.8918918918919,256,milliseconds per batch (wall clock),2.078450001135934,6.706835003205921,no,measured; raw samples not saved (run predates sample logging)
+decision_tree,44130,11153,25847,1202,37000,301.43243243243245,256,milliseconds per batch (wall clock),0.5618999966827687,2.9714100008277446,no,measured; raw samples not saved (run predates sample logging)
+isolation_forest,38456,13893,23107,6876,37000,375.4864864864865,256,milliseconds per batch (wall clock),166.28674999810755,284.1021249987534,no,measured; raw samples not saved (run predates sample logging)
+mlp,44635,10089,26911,697,37000,272.6756756756757,256,milliseconds per batch (wall clock),2.4105999982566573,6.265084998085512,no,measured; raw samples not saved (run predates sample logging)
+hybrid_iso_rule,38559,14196,22804,6773,37000,383.6756756756757,256,milliseconds per batch (wall clock),167.87669999757782,274.4732499959355,no,measured; raw samples not saved (run predates sample logging)

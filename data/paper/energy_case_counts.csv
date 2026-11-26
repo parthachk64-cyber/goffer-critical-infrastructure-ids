@@ -1,0 +1,10 @@
+feature,case_columns_marked,case_columns_examined,unspecified_cells,marked_cases,source_locator,evidence_label
+Phishing,3,4,0,colonial_pipeline_2021;ukraine_power_grid_2015_2016;blackenergy_2014,"Table 1, printed p. 1673",paper reports (count derived by this repository)
+Ransomware deployment,1,4,0,colonial_pipeline_2021,"Table 1, printed p. 1673",paper reports (count derived by this repository)
+SCADA exploitation,2,4,0,ukraine_power_grid_2015_2016;triton_2017,"Table 1, printed p. 1673",paper reports (count derived by this repository)
+State-sponsored cyberattack,3,4,0,ukraine_power_grid_2015_2016;triton_2017;blackenergy_2014,"Table 1, printed p. 1673",paper reports (count derived by this repository)
+Zero-day vulnerability exploit,3,4,0,colonial_pipeline_2021;triton_2017;blackenergy_2014,"Table 1, printed p. 1673",paper reports (count derived by this repository)
+Disruption of power grid operations,3,4,0,ukraine_power_grid_2015_2016;triton_2017;blackenergy_2014,"Table 1, printed p. 1673",paper reports (count derived by this repository)
+Data exfiltration & espionage,2,4,0,colonial_pipeline_2021;triton_2017,"Table 1, printed p. 1673",paper reports (count derived by this repository)
+Use of AI-enhanced malware,1,4,0,triton_2017,"Table 1, printed p. 1673",paper reports (count derived by this repository)
+Insider threats,1,4,0,triton_2017,"Table 1, printed p. 1673",paper reports (count derived by this repository)

@@ -23,6 +23,8 @@ jobs:
         run: ruff check src tests data
       - name: Fixture checksums
         run: python data/generate_fixture.py --check
+      - name: Generated README/CSV sections are current (read-only)
+        run: python -m infra_ids report --run results/unsw-nb15-example --check
       - name: Tests with coverage gate
         run: python -m pytest --cov=infra_ids --cov-report=term-missing --cov-fail-under=80
       - name: Demo smoke run

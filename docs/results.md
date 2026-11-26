@@ -4,6 +4,41 @@ Two runs are committed under `results/`. Every number is **measured in this run*
 run directory's `report.md` is the authoritative copy: it is rebuilt from that run's `predictions.csv` and `manifest.json`.
 Metric definitions: positive class = label 1 (attack); precision, recall, F1, FPR and accuracy are computed at each model's documented threshold; a ratio with a zero denominator is reported as `n/a`, never as 0.
 
+## Table C: errors, timing and the hybrid comparison (generated)
+
+Generated from the committed benchmark run by `python -m infra_ids report --run results/unsw-nb15-example --check` (read-only) or `--update-readme` (rewrite).
+
+<!-- BEGIN GENERATED:table-c -->
+**Table C. Errors and inference time: UNSW-NB15 official training/testing partitions (independent benchmark), run `20261126T020840Z-s42`**
+
+| Model | TP | FP | TN | FN | False alerts per 1,000 benign | p50 (ms/batch) | p95 (ms/batch) | Batch | Timing status |
+|---|---|---|---|---|---|---|---|---|---|
+| majority reference | 45,332 | 37,000 | 0 | 0 | 1000.0 | 0.01 | 0.01 | 256 | measured; raw samples not saved (run predates sample logging) |
+| rule baseline | 29,727 | 6,508 | 30,492 | 15,605 | 175.9 | 2.08 | 6.71 | 256 | measured; raw samples not saved (run predates sample logging) |
+| decision tree | 44,130 | 11,153 | 25,847 | 1,202 | 301.4 | 0.56 | 2.97 | 256 | measured; raw samples not saved (run predates sample logging) |
+| isolation forest | 38,456 | 13,893 | 23,107 | 6,876 | 375.5 | 166.29 | 284.10 | 256 | measured; raw samples not saved (run predates sample logging) |
+| MLP | 44,635 | 10,089 | 26,911 | 697 | 272.7 | 2.41 | 6.27 | 256 | measured; raw samples not saved (run predates sample logging) |
+| isolation forest + rule | 38,559 | 14,196 | 22,804 | 6,773 | 383.7 | 167.88 | 274.47 | 256 | measured; raw samples not saved (run predates sample logging) |
+
+*Denominators: benign records = FP + TN = 37,000; test N = 82,332. Timing is wall-clock inference on one batch (milliseconds per batch, unit as in the column headers), measured separately from any simulated triage delay; hardware and warm-up/repeat counts are in the run's `latency.json` and report. CSVs: [results/unsw-nb15-example/20261126T020840Z-s42/table_c.csv](results/unsw-nb15-example/20261126T020840Z-s42/table_c.csv).*
+
+**Hybrid versus its underlying detector (same records)**
+
+| | Isolation forest | Isolation forest + rule | Gained by the rule | Lost by the rule | Net |
+|---|---|---|---|---|---|
+| true detections (TP) | 38,456 | 38,559 | 103 | 0 | +103 |
+| false alerts (FP) | 13,893 | 14,196 | 303 | 0 | +303 |
+
+*At the selected operating points (isolation forest threshold 0.734, hybrid threshold 0.732). The rule is one documented choice, so this is a measurement for that choice, not for hybrids in general.*
+<!-- END GENERATED:table-c -->
+
+## Correction (metrics now come from the saved decisions)
+
+Earlier copies of `metrics.csv` and the tables in this file re-applied each threshold to the *saved* scores, which `predictions.csv` rounds to six decimals. A record whose score sat on the
+threshold could flip, and the decision tree's discrete leaf scores made that matter: on the synthetic run the tree's confusion counts were off by 10 true positives and 9 false positives
+(259/27 instead of 269/36); on UNSW-NB15 the Isolation Forest was off by 2 and 5 records. `metrics.csv` now counts the saved 0/1 decisions made at full precision (the same decisions
+that drive alerts), so Tables B and C, `metrics.csv` and the alert queue agree. Rates rounded to three decimals did not change for UNSW-NB15.
+
 ## 1. Independent benchmark: UNSW-NB15 official partitions
 
 Directory: `results/unsw-nb15-example/` (summary files; `predictions.csv` is not committed because of its size, so the report regenerates after you run `benchmark`).
@@ -13,8 +48,8 @@ Inputs: `UNSW_NB15_training-set.csv` (175,341 rows; SHA-256 `bec7dd5e...`) and `
 |---|---|---|---|---|---|---|---|---|---|---|---|
 | majority reference | 0.500 | 45,332 | 37,000 | 0 | 0 | 0.551 | 0.551 | 1.000 | 0.710 | 1.000 | n/a |
 | rule baseline | 0.500 | 29,727 | 6,508 | 30,492 | 15,605 | 0.731 | 0.820 | 0.656 | 0.729 | 0.176 | n/a |
-| decision tree | 0.484 | 44,130 | 11,153 | 25,847 | 1,202 | 0.850 | 0.798 | 0.974 | 0.877 | 0.301 | 0.977 |
-| isolation forest | 0.734 | 38,454 | 13,888 | 23,112 | 6,878 | 0.748 | 0.735 | 0.848 | 0.787 | 0.375 | 0.801 |
+| decision tree | 0.484 | 44,130 | 11,153 | 25,847 | 1,202 | 0.850 | 0.798 | 0.973 | 0.877 | 0.301 | 0.977 |
+| isolation forest | 0.734 | 38,456 | 13,893 | 23,107 | 6,876 | 0.748 | 0.735 | 0.848 | 0.787 | 0.375 | 0.801 |
 | MLP | 0.487 | 44,635 | 10,089 | 26,911 | 697 | 0.869 | 0.816 | 0.985 | 0.892 | 0.273 | 0.985 |
 | isolation forest + rule | 0.732 | 38,559 | 14,196 | 22,804 | 6,773 | 0.745 | 0.731 | 0.851 | 0.786 | 0.384 | 0.816 |
 
@@ -35,12 +70,12 @@ Directory: `results/synthetic-demo-example/`. Seeded generator, 2,000 training a
 |---|---|---|---|---|---|---|---|---|
 | majority reference | 0 | 0 | 650 | 350 | n/a | 0.000 | n/a | 0.000 |
 | rule baseline | 253 | 84 | 566 | 97 | 0.751 | 0.723 | 0.737 | 0.129 |
-| decision tree | 259 | 27 | 623 | 91 | 0.906 | 0.740 | 0.815 | 0.042 |
-| isolation forest | 240 | 72 | 578 | 110 | 0.769 | 0.686 | 0.725 | 0.111 |
+| decision tree | 269 | 36 | 614 | 81 | 0.882 | 0.769 | 0.821 | 0.055 |
+| isolation forest | 241 | 73 | 577 | 109 | 0.768 | 0.689 | 0.726 | 0.112 |
 | MLP | 241 | 10 | 640 | 109 | 0.960 | 0.689 | 0.802 | 0.015 |
 | isolation forest + rule | 245 | 70 | 580 | 105 | 0.778 | 0.700 | 0.737 | 0.108 |
 
-On the synthetic set the rule gave a small improvement to the Isolation Forest (F1 0.725 to 0.737); on UNSW-NB15 it gave none. Both are single seeds with no confidence intervals.
+On the synthetic set the rule gave a small improvement to the Isolation Forest (F1 0.726 to 0.737); on UNSW-NB15 it gave none. Both are single seeds with no confidence intervals.
 
 ## Triage and disposition
 

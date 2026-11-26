@@ -70,9 +70,11 @@ def select_threshold(y_true, scores, max_candidates: int = 2000) -> float:
     return best_t
 
 
-def metric_row(model: str, y_true, scores, threshold: float, meaningful: bool, subset: str = "all") -> dict:
+def metric_row(model: str, y_true, scores, threshold: float, meaningful: bool, subset: str = "all", decisions=None) -> dict:
+    """`decisions` are the saved 0/1 decisions made at full score precision. Saved scores are rounded to 6 decimals, so
+    re-thresholding them can flip borderline records; when decisions are available they, not a re-threshold, define the counts."""
     y = np.asarray(y_true).astype(int)
-    pred = (np.asarray(scores) >= threshold).astype(int)
+    pred = np.asarray(decisions).astype(int) if decisions is not None else (np.asarray(scores) >= threshold).astype(int)
     c = confusion(y, pred)
     return {
         "model": model,
@@ -102,6 +104,7 @@ def time_inference(score_fn, batch, warmup: int = 5, repeats: int = 30) -> dict:
         "p95_ms": float(np.percentile(arr, 95)),
         "warmup": warmup,
         "repeats": repeats,
+        "samples_ms": [float(x) for x in arr],
     }
 
 
@@ -126,6 +129,7 @@ def metrics_table(pred, thresholds: dict[str, float], meaningful: dict[str, bool
     for subset, frame in subsets.items():
         for m in models:
             rows.append(
-                metric_row(m, frame["y_true"], frame[f"score_{m}"], thresholds[m], meaningful[m], subset)
+                metric_row(m, frame["y_true"], frame[f"score_{m}"], thresholds[m], meaningful[m], subset,
+                           frame[f"pred_{m}"] if f"pred_{m}" in frame.columns else None)
             )
     return rows
