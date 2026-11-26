@@ -1,0 +1,166 @@
+{
+  "alerts": {
+    "flagged": 52755,
+    "model": "hybrid_iso_rule",
+    "truncated": true,
+    "written": 5000
+  },
+  "analyst_queue": {
+    "dismissed": 40,
+    "duplicates_ignored": 0,
+    "escalated": 4960,
+    "new_alerts": 5000,
+    "open": 0,
+    "policy": "SIMULATED: escalate if a rule reason code is present, else dismiss; no labels used",
+    "reviewed": 0,
+    "simulated_total_delay_s": 4468659
+  },
+  "created_utc": "2026-11-26T02:10:52+00:00",
+  "dataset_label": "unsw_nb15_official_partitions",
+  "dependencies": {
+    "matplotlib": "3.11.2",
+    "numpy": "2.5.5",
+    "pandas": "3.1.1",
+    "scikit-learn": "1.9.1"
+  },
+  "duplicate_overlap": {
+    "of_which_label_disagrees_with_train": 524,
+    "share_of_test": 0.10375066802701258,
+    "test_rows": 82332,
+    "test_rows_with_exact_train_duplicate": 8542,
+    "train_rows_internally_duplicated": 84049
+  },
+  "inputs": {
+    "test": {
+      "bytes": 15380800,
+      "categorical_levels": {
+        "proto": 131,
+        "service": 13,
+        "state": 7
+      },
+      "class_distribution": {
+        "label_0": 37000,
+        "label_1": 45332
+      },
+      "duplicate_ids_dropped": 0,
+      "filename": "UNSW_NB15_testing-set.csv",
+      "ignored_columns": [
+        "dtcpb",
+        "stcpb"
+      ],
+      "partition": "test",
+      "rows_kept": 82332,
+      "rows_read": 82332,
+      "sha256": "734fe6642edf758f7c94d7d9149426b49d202fe8e7bf0bef47392489c3c0a559"
+    },
+    "train": {
+      "bytes": 32293018,
+      "categorical_levels": {
+        "proto": 133,
+        "service": 13,
+        "state": 9
+      },
+      "class_distribution": {
+        "label_0": 56000,
+        "label_1": 119341
+      },
+      "duplicate_ids_dropped": 0,
+      "filename": "UNSW_NB15_training-set.csv",
+      "ignored_columns": [
+        "dtcpb",
+        "stcpb"
+      ],
+      "partition": "train",
+      "rows_kept": 175341,
+      "rows_read": 175341,
+      "sha256": "bec7dd5ec88dc2a0ccc7a07879d338395ed7421750f675fd0339e07dfe0648fa"
+    }
+  },
+  "model_version": "infra-ids-0.1.0-seed42",
+  "models": {
+    "decision_tree": {
+      "config": {
+        "max_depth": 8,
+        "min_samples_leaf": 20,
+        "seed": 42
+      },
+      "meaningful_scores": true,
+      "threshold": 0.4838709677419355
+    },
+    "hybrid_iso_rule": {
+      "config": {
+        "formula": "1 - (1 - s_iso) * (1 - w * r)",
+        "rule": "R1 or R2",
+        "w": 0.5
+      },
+      "meaningful_scores": true,
+      "threshold": 0.7316516799925958
+    },
+    "isolation_forest": {
+      "config": {
+        "fit_on": "label 0 fit rows only",
+        "n_estimators": 200,
+        "normalisation": "empirical CDF over fit-row normal scores",
+        "seed": 42
+      },
+      "meaningful_scores": true,
+      "threshold": 0.7344812063920775
+    },
+    "majority_reference": {
+      "config": {
+        "rule": "predict the majority class of the fit rows"
+      },
+      "meaningful_scores": false,
+      "threshold": 0.5
+    },
+    "mlp": {
+      "config": {
+        "early_stopping": true,
+        "hidden_layer_sizes": [
+          32,
+          16
+        ],
+        "max_iter": 200,
+        "seed": 42
+      },
+      "meaningful_scores": true,
+      "threshold": 0.4874107012712547
+    },
+    "rule_baseline": {
+      "config": {
+        "R1_FANIN_BURST": "ct_srv_dst >= 8 and ct_dst_ltm >= 8",
+        "R2_UNANSWERED": "dpkts == 0 and spkts >= 2",
+        "decision": "R1 or R2"
+      },
+      "meaningful_scores": false,
+      "threshold": 0.5
+    }
+  },
+  "notes": [
+    "UNSW-NB15 official training/testing CSVs; see docs/data.md for provenance and terms."
+  ],
+  "package_version": "0.1.0",
+  "positive_class": "label == 1 (attack)",
+  "preprocessing": {
+    "categorical": "one-hot of the 20 most frequent training levels plus '__other__'",
+    "fit_on": "training rows only",
+    "n_features_out": 81,
+    "numeric": "signed log1p, then standardise with training mean/std, clipped to +/-10"
+  },
+  "python": "3.12.13",
+  "run_id": "20261126T020840Z-s42",
+  "seed": 42,
+  "source_revision": "57958ae63948d699ffb866174d47a6a951235085",
+  "split": {
+    "provider_partitions": "training CSV -> fit/validation; testing CSV -> final evaluation only",
+    "seed": 42,
+    "sizes": {
+      "fit": 140272,
+      "test": 82332,
+      "validation": 35069
+    },
+    "val_fraction_requested": 0.2,
+    "validation": "group-aware by exact feature vector, seeded, taken from the training CSV"
+  },
+  "threshold_rule": "maximise F1 on validation rows; ties to the higher threshold; reference models use 0.5 on a fixed score"
+}

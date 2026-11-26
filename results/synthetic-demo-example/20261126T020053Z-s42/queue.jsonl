@@ -1,0 +1,945 @@
+{"actor": "detector", "at": "2000-01-01T00:00:54+00:00", "event_id": "ev_b690772de8eb", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T00:08:38+00:00", "event_id": "ev_b690772de8eb", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T00:15:11+00:00", "event_id": "ev_b690772de8eb", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T00:19:34+00:00", "event_id": "ev_0dfebdbe7d2b", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T00:23:54+00:00", "event_id": "ev_0dfebdbe7d2b", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T00:32:29+00:00", "event_id": "ev_0dfebdbe7d2b", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T00:33:21+00:00", "event_id": "ev_f7c5588f6286", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T00:40:19+00:00", "event_id": "ev_f7c5588f6286", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T00:42:20+00:00", "event_id": "ev_f7c5588f6286", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T00:43:17+00:00", "event_id": "ev_5dd389b288f3", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T00:48:33+00:00", "event_id": "ev_5dd389b288f3", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T00:58:18+00:00", "event_id": "ev_5dd389b288f3", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T01:05:39+00:00", "event_id": "ev_c3a93d319be9", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:is_ftp_login,DEV:dload,DEV:dbytes", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T01:13:15+00:00", "event_id": "ev_c3a93d319be9", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T01:20:25+00:00", "event_id": "ev_c3a93d319be9", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T01:28:16+00:00", "event_id": "ev_8db82a2556e1", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T01:33:24+00:00", "event_id": "ev_8db82a2556e1", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T01:34:41+00:00", "event_id": "ev_8db82a2556e1", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T01:43:05+00:00", "event_id": "ev_d4adb05f548d", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T01:47:35+00:00", "event_id": "ev_d4adb05f548d", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T01:52:35+00:00", "event_id": "ev_d4adb05f548d", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T01:56:18+00:00", "event_id": "ev_2eb08451ee40", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T01:58:08+00:00", "event_id": "ev_2eb08451ee40", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T02:07:24+00:00", "event_id": "ev_2eb08451ee40", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T02:15:13+00:00", "event_id": "ev_d4cbb68cc493", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T02:21:39+00:00", "event_id": "ev_d4cbb68cc493", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T02:25:41+00:00", "event_id": "ev_d4cbb68cc493", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T02:33:54+00:00", "event_id": "ev_b4c35740462f", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T02:39:21+00:00", "event_id": "ev_b4c35740462f", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T02:43:47+00:00", "event_id": "ev_b4c35740462f", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T02:48:17+00:00", "event_id": "ev_98beb49a413b", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T02:50:34+00:00", "event_id": "ev_98beb49a413b", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T02:51:30+00:00", "event_id": "ev_98beb49a413b", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T02:57:03+00:00", "event_id": "ev_bf055fccd02a", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T03:05:55+00:00", "event_id": "ev_bf055fccd02a", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T03:06:34+00:00", "event_id": "ev_bf055fccd02a", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T03:15:09+00:00", "event_id": "ev_b768c4cd8fce", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T03:23:25+00:00", "event_id": "ev_b768c4cd8fce", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T03:26:11+00:00", "event_id": "ev_b768c4cd8fce", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T03:32:30+00:00", "event_id": "ev_e5e8bec07680", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T03:34:09+00:00", "event_id": "ev_e5e8bec07680", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T03:41:44+00:00", "event_id": "ev_e5e8bec07680", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T03:48:44+00:00", "event_id": "ev_6146ee4e5039", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T03:52:17+00:00", "event_id": "ev_6146ee4e5039", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T03:52:58+00:00", "event_id": "ev_6146ee4e5039", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T04:02:40+00:00", "event_id": "ev_8d883f0af483", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T04:07:07+00:00", "event_id": "ev_8d883f0af483", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T04:16:02+00:00", "event_id": "ev_8d883f0af483", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T04:22:49+00:00", "event_id": "ev_a223f453d781", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T04:30:36+00:00", "event_id": "ev_a223f453d781", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T04:38:12+00:00", "event_id": "ev_a223f453d781", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T04:40:09+00:00", "event_id": "ev_ebc25fae7f00", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T04:43:47+00:00", "event_id": "ev_ebc25fae7f00", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T04:48:27+00:00", "event_id": "ev_ebc25fae7f00", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T04:53:26+00:00", "event_id": "ev_71e1a80803ef", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T04:53:53+00:00", "event_id": "ev_71e1a80803ef", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T04:59:21+00:00", "event_id": "ev_71e1a80803ef", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T05:00:54+00:00", "event_id": "ev_886edba896a5", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T05:08:20+00:00", "event_id": "ev_886edba896a5", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T05:15:10+00:00", "event_id": "ev_886edba896a5", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T05:24:23+00:00", "event_id": "ev_8c8cd3c6a7bf", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T05:31:50+00:00", "event_id": "ev_8c8cd3c6a7bf", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T05:35:30+00:00", "event_id": "ev_8c8cd3c6a7bf", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T05:45:10+00:00", "event_id": "ev_286a3e5cf431", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T05:49:17+00:00", "event_id": "ev_286a3e5cf431", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T05:52:33+00:00", "event_id": "ev_286a3e5cf431", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T06:01:36+00:00", "event_id": "ev_9d1731de0429", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T06:05:18+00:00", "event_id": "ev_9d1731de0429", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T06:06:04+00:00", "event_id": "ev_9d1731de0429", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T06:10:46+00:00", "event_id": "ev_1aec3f1332d4", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T06:18:43+00:00", "event_id": "ev_1aec3f1332d4", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T06:20:37+00:00", "event_id": "ev_1aec3f1332d4", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T06:25:15+00:00", "event_id": "ev_e0038b3c3e71", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T06:26:33+00:00", "event_id": "ev_e0038b3c3e71", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T06:33:25+00:00", "event_id": "ev_e0038b3c3e71", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T06:38:10+00:00", "event_id": "ev_3efbd7dd2122", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T06:41:28+00:00", "event_id": "ev_3efbd7dd2122", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T06:43:44+00:00", "event_id": "ev_3efbd7dd2122", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T06:49:23+00:00", "event_id": "ev_cff52a162fbc", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T06:56:05+00:00", "event_id": "ev_cff52a162fbc", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T07:05:29+00:00", "event_id": "ev_cff52a162fbc", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T07:09:51+00:00", "event_id": "ev_14465a1eb320", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T07:11:28+00:00", "event_id": "ev_14465a1eb320", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T07:19:47+00:00", "event_id": "ev_14465a1eb320", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T07:26:05+00:00", "event_id": "ev_a14b474accaf", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T07:33:05+00:00", "event_id": "ev_a14b474accaf", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T07:34:04+00:00", "event_id": "ev_a14b474accaf", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T07:37:12+00:00", "event_id": "ev_adda78355497", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T07:44:52+00:00", "event_id": "ev_adda78355497", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T07:53:11+00:00", "event_id": "ev_adda78355497", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T07:57:32+00:00", "event_id": "ev_524b18e91db1", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T08:05:35+00:00", "event_id": "ev_524b18e91db1", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T08:14:00+00:00", "event_id": "ev_524b18e91db1", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T08:17:53+00:00", "event_id": "ev_2c40bbccb5e1", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T08:26:51+00:00", "event_id": "ev_2c40bbccb5e1", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T08:29:44+00:00", "event_id": "ev_2c40bbccb5e1", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T08:32:08+00:00", "event_id": "ev_5a2759bc40af", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T08:38:57+00:00", "event_id": "ev_5a2759bc40af", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T08:45:19+00:00", "event_id": "ev_5a2759bc40af", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T08:46:43+00:00", "event_id": "ev_6c67f9e08ecd", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T08:55:02+00:00", "event_id": "ev_6c67f9e08ecd", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T08:57:02+00:00", "event_id": "ev_6c67f9e08ecd", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T09:05:05+00:00", "event_id": "ev_b7a40fc86f56", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T09:05:10+00:00", "event_id": "ev_b7a40fc86f56", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T09:13:08+00:00", "event_id": "ev_b7a40fc86f56", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T09:21:00+00:00", "event_id": "ev_8b1f66a18dce", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T09:28:48+00:00", "event_id": "ev_8b1f66a18dce", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T09:35:27+00:00", "event_id": "ev_8b1f66a18dce", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T09:40:10+00:00", "event_id": "ev_c10dfecdb29a", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T09:47:13+00:00", "event_id": "ev_c10dfecdb29a", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T09:49:59+00:00", "event_id": "ev_c10dfecdb29a", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T09:57:47+00:00", "event_id": "ev_5274e0f09214", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:is_ftp_login,DEV:dload,DEV:dbytes", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T10:03:20+00:00", "event_id": "ev_5274e0f09214", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T10:07:55+00:00", "event_id": "ev_5274e0f09214", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T10:12:58+00:00", "event_id": "ev_11507b017928", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 1.0, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T10:18:39+00:00", "event_id": "ev_11507b017928", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T10:19:02+00:00", "event_id": "ev_11507b017928", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T10:20:26+00:00", "event_id": "ev_cab8e2ac7eea", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T10:22:54+00:00", "event_id": "ev_cab8e2ac7eea", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T10:24:03+00:00", "event_id": "ev_cab8e2ac7eea", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T10:28:27+00:00", "event_id": "ev_d1352b8961d1", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T10:35:08+00:00", "event_id": "ev_d1352b8961d1", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T10:41:41+00:00", "event_id": "ev_d1352b8961d1", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T10:46:24+00:00", "event_id": "ev_ddd540d88a01", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T10:54:57+00:00", "event_id": "ev_ddd540d88a01", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T11:00:36+00:00", "event_id": "ev_ddd540d88a01", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T11:01:24+00:00", "event_id": "ev_c074a26d616d", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T11:09:03+00:00", "event_id": "ev_c074a26d616d", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T11:14:48+00:00", "event_id": "ev_c074a26d616d", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T11:21:09+00:00", "event_id": "ev_cbdcfb1593dd", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:ackdat,DEV:ct_dst_ltm", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T11:26:48+00:00", "event_id": "ev_cbdcfb1593dd", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T11:32:20+00:00", "event_id": "ev_cbdcfb1593dd", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T11:33:15+00:00", "event_id": "ev_b4a3adbfc730", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T11:38:50+00:00", "event_id": "ev_b4a3adbfc730", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T11:46:47+00:00", "event_id": "ev_b4a3adbfc730", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T11:49:50+00:00", "event_id": "ev_195df06b6535", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T11:55:52+00:00", "event_id": "ev_195df06b6535", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T11:56:11+00:00", "event_id": "ev_195df06b6535", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T11:59:40+00:00", "event_id": "ev_78a130ddc8e4", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T12:04:02+00:00", "event_id": "ev_78a130ddc8e4", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T12:13:51+00:00", "event_id": "ev_78a130ddc8e4", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T12:16:00+00:00", "event_id": "ev_d9dcf701c6b1", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dinpkt,DEV:dload,DEV:dbytes", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T12:18:46+00:00", "event_id": "ev_d9dcf701c6b1", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T12:22:51+00:00", "event_id": "ev_d9dcf701c6b1", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T12:32:46+00:00", "event_id": "ev_393f262bec52", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T12:41:18+00:00", "event_id": "ev_393f262bec52", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T12:41:39+00:00", "event_id": "ev_393f262bec52", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T12:44:00+00:00", "event_id": "ev_86f475467f1b", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:ackdat,DEV:rate,DEV:tcprtt", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T12:52:13+00:00", "event_id": "ev_86f475467f1b", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T12:52:48+00:00", "event_id": "ev_86f475467f1b", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T13:01:21+00:00", "event_id": "ev_ed243f2b3000", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T13:04:10+00:00", "event_id": "ev_ed243f2b3000", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T13:13:20+00:00", "event_id": "ev_ed243f2b3000", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T13:16:16+00:00", "event_id": "ev_3df52e958813", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T13:20:37+00:00", "event_id": "ev_3df52e958813", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T13:27:14+00:00", "event_id": "ev_3df52e958813", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T13:28:30+00:00", "event_id": "ev_85a7a9a373c8", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T13:34:04+00:00", "event_id": "ev_85a7a9a373c8", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T13:39:07+00:00", "event_id": "ev_85a7a9a373c8", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T13:46:57+00:00", "event_id": "ev_c9d36cc40a91", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T13:56:54+00:00", "event_id": "ev_c9d36cc40a91", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T14:03:32+00:00", "event_id": "ev_c9d36cc40a91", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T14:07:38+00:00", "event_id": "ev_85822ae4303b", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T14:11:42+00:00", "event_id": "ev_85822ae4303b", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T14:15:53+00:00", "event_id": "ev_85822ae4303b", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T14:24:01+00:00", "event_id": "ev_8aa5476ecc22", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T14:27:14+00:00", "event_id": "ev_8aa5476ecc22", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T14:28:55+00:00", "event_id": "ev_8aa5476ecc22", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T14:32:16+00:00", "event_id": "ev_eb68816353f0", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T14:32:30+00:00", "event_id": "ev_eb68816353f0", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T14:33:34+00:00", "event_id": "ev_eb68816353f0", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T14:34:28+00:00", "event_id": "ev_149af9c67a76", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T14:42:11+00:00", "event_id": "ev_149af9c67a76", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T14:49:24+00:00", "event_id": "ev_149af9c67a76", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T14:56:22+00:00", "event_id": "ev_30b51a1ee554", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T15:00:59+00:00", "event_id": "ev_30b51a1ee554", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T15:08:09+00:00", "event_id": "ev_30b51a1ee554", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T15:09:46+00:00", "event_id": "ev_9aa12945e9fb", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T15:18:46+00:00", "event_id": "ev_9aa12945e9fb", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T15:23:47+00:00", "event_id": "ev_9aa12945e9fb", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T15:33:09+00:00", "event_id": "ev_d317c38a3c38", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:ct_ftp_cmd,DEV:ct_dst_sport_ltm,DEV:ct_src_ltm", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T15:34:41+00:00", "event_id": "ev_d317c38a3c38", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T15:39:39+00:00", "event_id": "ev_d317c38a3c38", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T15:46:37+00:00", "event_id": "ev_ac56169f19bc", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:is_ftp_login,DEV:dload,DEV:dbytes", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T15:51:34+00:00", "event_id": "ev_ac56169f19bc", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T15:56:02+00:00", "event_id": "ev_ac56169f19bc", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T15:57:42+00:00", "event_id": "ev_917c2a931ee9", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T16:01:31+00:00", "event_id": "ev_917c2a931ee9", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T16:03:55+00:00", "event_id": "ev_917c2a931ee9", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T16:06:56+00:00", "event_id": "ev_3a73047b94bc", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:is_sm_ips_ports,DEV:dload,DEV:dbytes", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T16:13:46+00:00", "event_id": "ev_3a73047b94bc", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T16:20:04+00:00", "event_id": "ev_3a73047b94bc", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T16:26:08+00:00", "event_id": "ev_a75b386334fe", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:rate", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T16:29:45+00:00", "event_id": "ev_a75b386334fe", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T16:39:20+00:00", "event_id": "ev_a75b386334fe", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T16:40:13+00:00", "event_id": "ev_16067415dc11", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T16:43:39+00:00", "event_id": "ev_16067415dc11", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T16:44:50+00:00", "event_id": "ev_16067415dc11", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T16:48:14+00:00", "event_id": "ev_316a77ab3de3", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T16:57:51+00:00", "event_id": "ev_316a77ab3de3", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T17:01:31+00:00", "event_id": "ev_316a77ab3de3", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T17:10:36+00:00", "event_id": "ev_940aa230e609", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T17:15:33+00:00", "event_id": "ev_940aa230e609", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T17:22:33+00:00", "event_id": "ev_940aa230e609", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T17:27:07+00:00", "event_id": "ev_64442e4f6d81", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T17:29:47+00:00", "event_id": "ev_64442e4f6d81", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T17:37:25+00:00", "event_id": "ev_64442e4f6d81", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T17:47:06+00:00", "event_id": "ev_1319cca92cb4", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T17:49:44+00:00", "event_id": "ev_1319cca92cb4", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T17:57:31+00:00", "event_id": "ev_1319cca92cb4", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T18:00:08+00:00", "event_id": "ev_6dcfcd7ab4bd", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T18:07:18+00:00", "event_id": "ev_6dcfcd7ab4bd", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T18:15:11+00:00", "event_id": "ev_6dcfcd7ab4bd", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T18:19:41+00:00", "event_id": "ev_cbdcdbc915a2", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T18:27:03+00:00", "event_id": "ev_cbdcdbc915a2", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T18:29:47+00:00", "event_id": "ev_cbdcdbc915a2", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T18:30:35+00:00", "event_id": "ev_ac4bb9f68cc0", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T18:31:33+00:00", "event_id": "ev_ac4bb9f68cc0", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T18:36:01+00:00", "event_id": "ev_ac4bb9f68cc0", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T18:45:02+00:00", "event_id": "ev_685e2ecf9c9c", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T18:46:19+00:00", "event_id": "ev_685e2ecf9c9c", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T18:50:53+00:00", "event_id": "ev_685e2ecf9c9c", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T18:57:55+00:00", "event_id": "ev_3a38d3079b87", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999517, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T18:59:57+00:00", "event_id": "ev_3a38d3079b87", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T19:07:10+00:00", "event_id": "ev_3a38d3079b87", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T19:10:14+00:00", "event_id": "ev_f88c75f25b6e", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T19:18:19+00:00", "event_id": "ev_f88c75f25b6e", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T19:24:06+00:00", "event_id": "ev_f88c75f25b6e", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T19:29:34+00:00", "event_id": "ev_38f4cdaebe86", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T19:31:20+00:00", "event_id": "ev_38f4cdaebe86", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T19:35:58+00:00", "event_id": "ev_38f4cdaebe86", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T19:44:32+00:00", "event_id": "ev_65387b844cf3", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T19:44:44+00:00", "event_id": "ev_65387b844cf3", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T19:52:19+00:00", "event_id": "ev_65387b844cf3", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T19:57:15+00:00", "event_id": "ev_645ad6740a12", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T20:04:26+00:00", "event_id": "ev_645ad6740a12", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T20:11:04+00:00", "event_id": "ev_645ad6740a12", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T20:15:23+00:00", "event_id": "ev_2482d3308702", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T20:18:28+00:00", "event_id": "ev_2482d3308702", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T20:24:44+00:00", "event_id": "ev_2482d3308702", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T20:26:08+00:00", "event_id": "ev_3c2f11d4e961", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T20:31:58+00:00", "event_id": "ev_3c2f11d4e961", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T20:32:55+00:00", "event_id": "ev_3c2f11d4e961", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T20:39:25+00:00", "event_id": "ev_e49461d64026", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T20:45:42+00:00", "event_id": "ev_e49461d64026", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T20:46:33+00:00", "event_id": "ev_e49461d64026", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T20:54:07+00:00", "event_id": "ev_ec8ca04e900a", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:dur", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T20:58:17+00:00", "event_id": "ev_ec8ca04e900a", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T21:06:09+00:00", "event_id": "ev_ec8ca04e900a", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T21:06:34+00:00", "event_id": "ev_5b87c0959240", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T21:08:22+00:00", "event_id": "ev_5b87c0959240", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T21:13:18+00:00", "event_id": "ev_5b87c0959240", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T21:15:11+00:00", "event_id": "ev_dabd46f07ecd", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T21:18:29+00:00", "event_id": "ev_dabd46f07ecd", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T21:25:05+00:00", "event_id": "ev_dabd46f07ecd", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T21:26:32+00:00", "event_id": "ev_99a0d7f615f4", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T21:33:18+00:00", "event_id": "ev_99a0d7f615f4", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T21:34:20+00:00", "event_id": "ev_99a0d7f615f4", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T21:36:05+00:00", "event_id": "ev_4739b88c1d4a", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T21:41:57+00:00", "event_id": "ev_4739b88c1d4a", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T21:49:53+00:00", "event_id": "ev_4739b88c1d4a", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T21:51:36+00:00", "event_id": "ev_d12f274932ea", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T21:54:36+00:00", "event_id": "ev_d12f274932ea", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T22:03:51+00:00", "event_id": "ev_d12f274932ea", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T22:13:44+00:00", "event_id": "ev_409cf77a86ac", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T22:19:33+00:00", "event_id": "ev_409cf77a86ac", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T22:24:01+00:00", "event_id": "ev_409cf77a86ac", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T22:27:29+00:00", "event_id": "ev_9d8f2aaaa9da", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T22:33:36+00:00", "event_id": "ev_9d8f2aaaa9da", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T22:39:30+00:00", "event_id": "ev_9d8f2aaaa9da", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T22:42:27+00:00", "event_id": "ev_75fc134eaaa1", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T22:42:41+00:00", "event_id": "ev_75fc134eaaa1", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T22:44:12+00:00", "event_id": "ev_75fc134eaaa1", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T22:53:47+00:00", "event_id": "ev_9012ae042fff", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T22:57:58+00:00", "event_id": "ev_9012ae042fff", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T23:02:47+00:00", "event_id": "ev_9012ae042fff", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T23:07:27+00:00", "event_id": "ev_7eabf0066f51", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T23:15:16+00:00", "event_id": "ev_7eabf0066f51", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T23:15:55+00:00", "event_id": "ev_7eabf0066f51", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T23:16:45+00:00", "event_id": "ev_b1408a579aca", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T23:19:31+00:00", "event_id": "ev_b1408a579aca", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T23:24:23+00:00", "event_id": "ev_b1408a579aca", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T23:31:06+00:00", "event_id": "ev_5761591d5c98", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T23:36:00+00:00", "event_id": "ev_5761591d5c98", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T23:40:25+00:00", "event_id": "ev_5761591d5c98", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-01T23:49:47+00:00", "event_id": "ev_625fbebab124", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-01T23:51:24+00:00", "event_id": "ev_625fbebab124", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-01T23:57:07+00:00", "event_id": "ev_625fbebab124", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T00:02:32+00:00", "event_id": "ev_b11698b675f5", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T00:07:16+00:00", "event_id": "ev_b11698b675f5", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T00:15:20+00:00", "event_id": "ev_b11698b675f5", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T00:18:00+00:00", "event_id": "ev_4f52c3c5ba98", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T00:27:32+00:00", "event_id": "ev_4f52c3c5ba98", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T00:30:51+00:00", "event_id": "ev_4f52c3c5ba98", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T00:36:18+00:00", "event_id": "ev_4d1823ffdb81", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T00:41:30+00:00", "event_id": "ev_4d1823ffdb81", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T00:50:00+00:00", "event_id": "ev_4d1823ffdb81", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T00:54:23+00:00", "event_id": "ev_8fc23486b0bb", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T00:57:14+00:00", "event_id": "ev_8fc23486b0bb", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T00:57:27+00:00", "event_id": "ev_8fc23486b0bb", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T01:01:05+00:00", "event_id": "ev_15902995b3e0", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T01:09:20+00:00", "event_id": "ev_15902995b3e0", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T01:09:26+00:00", "event_id": "ev_15902995b3e0", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T01:18:23+00:00", "event_id": "ev_2efb8f4227ad", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T01:23:49+00:00", "event_id": "ev_2efb8f4227ad", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T01:25:14+00:00", "event_id": "ev_2efb8f4227ad", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T01:28:16+00:00", "event_id": "ev_501ff1b3b1c2", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:sload,DEV:rate", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T01:33:48+00:00", "event_id": "ev_501ff1b3b1c2", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T01:36:58+00:00", "event_id": "ev_501ff1b3b1c2", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T01:38:04+00:00", "event_id": "ev_3830a72c82fa", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T01:44:43+00:00", "event_id": "ev_3830a72c82fa", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T01:51:26+00:00", "event_id": "ev_3830a72c82fa", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T01:52:38+00:00", "event_id": "ev_f8d997afed0c", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T01:55:27+00:00", "event_id": "ev_f8d997afed0c", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T01:57:54+00:00", "event_id": "ev_f8d997afed0c", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T02:04:29+00:00", "event_id": "ev_5a9a08f630d1", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T02:11:47+00:00", "event_id": "ev_5a9a08f630d1", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T02:19:03+00:00", "event_id": "ev_5a9a08f630d1", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T02:28:26+00:00", "event_id": "ev_9f0ccb4eb0a2", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T02:36:07+00:00", "event_id": "ev_9f0ccb4eb0a2", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T02:39:20+00:00", "event_id": "ev_9f0ccb4eb0a2", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T02:40:25+00:00", "event_id": "ev_d340cf4957e8", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T02:46:34+00:00", "event_id": "ev_d340cf4957e8", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T02:55:43+00:00", "event_id": "ev_d340cf4957e8", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T03:05:28+00:00", "event_id": "ev_d89024b6830b", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T03:07:46+00:00", "event_id": "ev_d89024b6830b", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T03:10:08+00:00", "event_id": "ev_d89024b6830b", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T03:10:31+00:00", "event_id": "ev_88dd51439e53", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T03:11:56+00:00", "event_id": "ev_88dd51439e53", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T03:17:29+00:00", "event_id": "ev_88dd51439e53", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T03:22:57+00:00", "event_id": "ev_502189aeec0c", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:ct_dst_sport_ltm", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T03:26:40+00:00", "event_id": "ev_502189aeec0c", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T03:29:46+00:00", "event_id": "ev_502189aeec0c", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T03:38:04+00:00", "event_id": "ev_87c236e87d83", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T03:42:40+00:00", "event_id": "ev_87c236e87d83", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T03:50:45+00:00", "event_id": "ev_87c236e87d83", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T04:00:22+00:00", "event_id": "ev_abf248e286c0", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T04:03:32+00:00", "event_id": "ev_abf248e286c0", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T04:05:34+00:00", "event_id": "ev_abf248e286c0", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T04:15:05+00:00", "event_id": "ev_5f3a6268856a", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T04:21:26+00:00", "event_id": "ev_5f3a6268856a", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T04:24:21+00:00", "event_id": "ev_5f3a6268856a", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T04:30:34+00:00", "event_id": "ev_91101d265c72", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T04:35:43+00:00", "event_id": "ev_91101d265c72", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T04:44:46+00:00", "event_id": "ev_91101d265c72", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T04:47:20+00:00", "event_id": "ev_6bb3006cf2b4", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T04:57:14+00:00", "event_id": "ev_6bb3006cf2b4", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T05:06:35+00:00", "event_id": "ev_6bb3006cf2b4", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T05:08:24+00:00", "event_id": "ev_36c0d322367a", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T05:10:03+00:00", "event_id": "ev_36c0d322367a", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T05:15:23+00:00", "event_id": "ev_36c0d322367a", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T05:15:50+00:00", "event_id": "ev_cf69c2087876", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T05:18:49+00:00", "event_id": "ev_cf69c2087876", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T05:23:10+00:00", "event_id": "ev_cf69c2087876", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T05:32:51+00:00", "event_id": "ev_508544f059d9", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:rate,DEV:sbytes", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T05:42:46+00:00", "event_id": "ev_508544f059d9", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T05:44:17+00:00", "event_id": "ev_508544f059d9", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T05:53:12+00:00", "event_id": "ev_06708ce60fe5", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T05:54:07+00:00", "event_id": "ev_06708ce60fe5", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T06:01:36+00:00", "event_id": "ev_06708ce60fe5", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T06:10:03+00:00", "event_id": "ev_1efc20419aad", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T06:18:57+00:00", "event_id": "ev_1efc20419aad", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T06:21:11+00:00", "event_id": "ev_1efc20419aad", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T06:30:07+00:00", "event_id": "ev_df47b54a7681", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T06:31:17+00:00", "event_id": "ev_df47b54a7681", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T06:36:28+00:00", "event_id": "ev_df47b54a7681", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T06:41:10+00:00", "event_id": "ev_ba38e000e8f6", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T06:44:20+00:00", "event_id": "ev_ba38e000e8f6", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T06:44:34+00:00", "event_id": "ev_ba38e000e8f6", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T06:52:17+00:00", "event_id": "ev_cbabaed202e3", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.999034, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T06:55:39+00:00", "event_id": "ev_cbabaed202e3", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T07:02:16+00:00", "event_id": "ev_cbabaed202e3", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T07:06:22+00:00", "event_id": "ev_889d96703920", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.998551, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T07:10:06+00:00", "event_id": "ev_889d96703920", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T07:18:57+00:00", "event_id": "ev_889d96703920", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T07:19:54+00:00", "event_id": "ev_92becb8f0ed6", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.998551, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T07:27:16+00:00", "event_id": "ev_92becb8f0ed6", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T07:34:44+00:00", "event_id": "ev_92becb8f0ed6", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T07:38:32+00:00", "event_id": "ev_c1eac85f2f00", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.998551, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T07:41:10+00:00", "event_id": "ev_c1eac85f2f00", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T07:41:14+00:00", "event_id": "ev_c1eac85f2f00", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T07:50:36+00:00", "event_id": "ev_fb54644dcf36", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.998551, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T08:00:04+00:00", "event_id": "ev_fb54644dcf36", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T08:02:29+00:00", "event_id": "ev_fb54644dcf36", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T08:02:49+00:00", "event_id": "ev_d6c8d45da144", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:ct_src_dport_ltm", "risk_score": 0.998551, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T08:04:03+00:00", "event_id": "ev_d6c8d45da144", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T08:04:44+00:00", "event_id": "ev_d6c8d45da144", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T08:13:02+00:00", "event_id": "ev_1e75dd25df43", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.998551, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T08:21:57+00:00", "event_id": "ev_1e75dd25df43", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T08:23:29+00:00", "event_id": "ev_1e75dd25df43", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T08:30:57+00:00", "event_id": "ev_ad7c86b49ee3", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.998551, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T08:32:45+00:00", "event_id": "ev_ad7c86b49ee3", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T08:36:25+00:00", "event_id": "ev_ad7c86b49ee3", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T08:42:25+00:00", "event_id": "ev_b98931e613f7", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:rate,DEV:ct_dst_sport_ltm", "risk_score": 0.998068, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T08:49:37+00:00", "event_id": "ev_b98931e613f7", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T08:58:21+00:00", "event_id": "ev_b98931e613f7", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T08:58:48+00:00", "event_id": "ev_65878445affd", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.998068, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T09:00:46+00:00", "event_id": "ev_65878445affd", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T09:03:35+00:00", "event_id": "ev_65878445affd", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T09:06:41+00:00", "event_id": "ev_2a33f642fe75", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:tcprtt", "risk_score": 0.998068, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T09:16:39+00:00", "event_id": "ev_2a33f642fe75", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T09:24:25+00:00", "event_id": "ev_2a33f642fe75", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T09:27:37+00:00", "event_id": "ev_9dd6ecebfa6a", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.998068, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T09:37:20+00:00", "event_id": "ev_9dd6ecebfa6a", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T09:42:20+00:00", "event_id": "ev_9dd6ecebfa6a", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T09:47:20+00:00", "event_id": "ev_65142f9aa684", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:rate,DEV:sload", "risk_score": 0.998068, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T09:51:40+00:00", "event_id": "ev_65142f9aa684", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T09:53:07+00:00", "event_id": "ev_65142f9aa684", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T10:02:27+00:00", "event_id": "ev_b89ce5113272", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.998068, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T10:02:36+00:00", "event_id": "ev_b89ce5113272", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T10:04:21+00:00", "event_id": "ev_b89ce5113272", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T10:06:39+00:00", "event_id": "ev_52645cca4181", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.998068, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T10:09:27+00:00", "event_id": "ev_52645cca4181", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T10:10:46+00:00", "event_id": "ev_52645cca4181", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T10:10:57+00:00", "event_id": "ev_1105a810326d", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:synack,DEV:ct_src_dport_ltm", "risk_score": 0.997585, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T10:17:43+00:00", "event_id": "ev_1105a810326d", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T10:27:24+00:00", "event_id": "ev_1105a810326d", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T10:28:37+00:00", "event_id": "ev_44e904889f81", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.997585, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T10:31:35+00:00", "event_id": "ev_44e904889f81", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T10:36:39+00:00", "event_id": "ev_44e904889f81", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T10:45:55+00:00", "event_id": "ev_bef11613b082", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.997585, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T10:52:51+00:00", "event_id": "ev_bef11613b082", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T11:00:30+00:00", "event_id": "ev_bef11613b082", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T11:06:19+00:00", "event_id": "ev_caff61f22d91", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.997585, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T11:10:29+00:00", "event_id": "ev_caff61f22d91", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T11:12:29+00:00", "event_id": "ev_caff61f22d91", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T11:21:07+00:00", "event_id": "ev_12969435b963", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.997585, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T11:29:09+00:00", "event_id": "ev_12969435b963", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T11:29:25+00:00", "event_id": "ev_12969435b963", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T11:36:34+00:00", "event_id": "ev_fd821c5e3757", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.997585, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T11:37:25+00:00", "event_id": "ev_fd821c5e3757", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T11:44:48+00:00", "event_id": "ev_fd821c5e3757", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T11:53:03+00:00", "event_id": "ev_95c9fd7de09e", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.997585, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T11:54:22+00:00", "event_id": "ev_95c9fd7de09e", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T11:58:42+00:00", "event_id": "ev_95c9fd7de09e", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T11:59:57+00:00", "event_id": "ev_da5f5efb7790", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.997585, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T12:05:37+00:00", "event_id": "ev_da5f5efb7790", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T12:14:53+00:00", "event_id": "ev_da5f5efb7790", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T12:15:42+00:00", "event_id": "ev_7e23dc364c65", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.997585, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T12:19:41+00:00", "event_id": "ev_7e23dc364c65", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T12:29:24+00:00", "event_id": "ev_7e23dc364c65", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T12:32:25+00:00", "event_id": "ev_02c2bed1ae0f", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.997585, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T12:33:45+00:00", "event_id": "ev_02c2bed1ae0f", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T12:38:38+00:00", "event_id": "ev_02c2bed1ae0f", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T12:43:43+00:00", "event_id": "ev_5c980da6f1eb", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.997585, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T12:50:21+00:00", "event_id": "ev_5c980da6f1eb", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T12:53:29+00:00", "event_id": "ev_5c980da6f1eb", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T13:03:02+00:00", "event_id": "ev_f4031f696a97", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.997101, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T13:08:15+00:00", "event_id": "ev_f4031f696a97", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T13:11:07+00:00", "event_id": "ev_f4031f696a97", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T13:20:43+00:00", "event_id": "ev_8a7b57186d9c", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.997101, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T13:29:57+00:00", "event_id": "ev_8a7b57186d9c", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T13:34:56+00:00", "event_id": "ev_8a7b57186d9c", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T13:35:11+00:00", "event_id": "ev_68863d6cd9c4", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.997101, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T13:41:09+00:00", "event_id": "ev_68863d6cd9c4", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T13:46:42+00:00", "event_id": "ev_68863d6cd9c4", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T13:48:11+00:00", "event_id": "ev_d05d9a6bcf85", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.997101, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T13:54:31+00:00", "event_id": "ev_d05d9a6bcf85", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T14:02:55+00:00", "event_id": "ev_d05d9a6bcf85", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T14:03:59+00:00", "event_id": "ev_6dbce1b9dac4", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.997101, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T14:11:13+00:00", "event_id": "ev_6dbce1b9dac4", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T14:12:38+00:00", "event_id": "ev_6dbce1b9dac4", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T14:20:07+00:00", "event_id": "ev_12ef83c14d01", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:ct_ftp_cmd,DEV:tcprtt", "risk_score": 0.997101, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T14:24:19+00:00", "event_id": "ev_12ef83c14d01", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T14:24:23+00:00", "event_id": "ev_12ef83c14d01", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T14:34:02+00:00", "event_id": "ev_323a0bba9f45", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:ct_srv_src", "risk_score": 0.997101, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T14:35:42+00:00", "event_id": "ev_323a0bba9f45", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T14:41:40+00:00", "event_id": "ev_323a0bba9f45", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T14:43:29+00:00", "event_id": "ev_b4a84a51e0ac", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.997101, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T14:52:48+00:00", "event_id": "ev_b4a84a51e0ac", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T15:00:11+00:00", "event_id": "ev_b4a84a51e0ac", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T15:08:13+00:00", "event_id": "ev_fdbc2f77f99f", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.997101, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T15:12:32+00:00", "event_id": "ev_fdbc2f77f99f", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T15:17:12+00:00", "event_id": "ev_fdbc2f77f99f", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T15:23:32+00:00", "event_id": "ev_973886a7882d", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.997101, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T15:31:23+00:00", "event_id": "ev_973886a7882d", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T15:39:51+00:00", "event_id": "ev_973886a7882d", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T15:40:02+00:00", "event_id": "ev_52c5f3070a2a", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.997101, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T15:46:40+00:00", "event_id": "ev_52c5f3070a2a", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T15:47:46+00:00", "event_id": "ev_52c5f3070a2a", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T15:50:39+00:00", "event_id": "ev_20d7f3a0c36b", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.996618, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T15:58:56+00:00", "event_id": "ev_20d7f3a0c36b", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T16:01:27+00:00", "event_id": "ev_20d7f3a0c36b", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T16:09:25+00:00", "event_id": "ev_be74ac132747", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.995652, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T16:14:03+00:00", "event_id": "ev_be74ac132747", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T16:16:23+00:00", "event_id": "ev_be74ac132747", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T16:19:44+00:00", "event_id": "ev_9aed77f3da41", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:trans_depth", "risk_score": 0.995652, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T16:25:02+00:00", "event_id": "ev_9aed77f3da41", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T16:32:41+00:00", "event_id": "ev_9aed77f3da41", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T16:38:45+00:00", "event_id": "ev_46f4bccfe12e", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.995652, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T16:48:05+00:00", "event_id": "ev_46f4bccfe12e", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T16:56:45+00:00", "event_id": "ev_46f4bccfe12e", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T17:04:17+00:00", "event_id": "ev_73ce0aaf437e", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.995652, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T17:10:19+00:00", "event_id": "ev_73ce0aaf437e", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T17:13:13+00:00", "event_id": "ev_73ce0aaf437e", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T17:17:21+00:00", "event_id": "ev_16df7406909f", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.995652, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T17:18:33+00:00", "event_id": "ev_16df7406909f", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T17:22:18+00:00", "event_id": "ev_16df7406909f", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T17:31:33+00:00", "event_id": "ev_02464e123d81", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.995652, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T17:35:49+00:00", "event_id": "ev_02464e123d81", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T17:36:58+00:00", "event_id": "ev_02464e123d81", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T17:43:29+00:00", "event_id": "ev_49ba0900d21d", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.995652, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T17:53:06+00:00", "event_id": "ev_49ba0900d21d", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T18:01:46+00:00", "event_id": "ev_49ba0900d21d", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T18:04:31+00:00", "event_id": "ev_e58de6496e58", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.995652, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T18:09:03+00:00", "event_id": "ev_e58de6496e58", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T18:14:22+00:00", "event_id": "ev_e58de6496e58", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T18:16:51+00:00", "event_id": "ev_0320e4e753a8", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.995652, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T18:19:32+00:00", "event_id": "ev_0320e4e753a8", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T18:21:54+00:00", "event_id": "ev_0320e4e753a8", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T18:31:50+00:00", "event_id": "ev_6df7b8af4894", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.995652, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T18:39:17+00:00", "event_id": "ev_6df7b8af4894", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T18:47:41+00:00", "event_id": "ev_6df7b8af4894", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T18:55:51+00:00", "event_id": "ev_fbf62cf2f7e7", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:is_ftp_login", "risk_score": 0.995652, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T19:05:26+00:00", "event_id": "ev_fbf62cf2f7e7", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T19:06:30+00:00", "event_id": "ev_fbf62cf2f7e7", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T19:15:19+00:00", "event_id": "ev_002971ef34f6", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.995652, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T19:15:59+00:00", "event_id": "ev_002971ef34f6", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T19:20:44+00:00", "event_id": "ev_002971ef34f6", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T19:26:41+00:00", "event_id": "ev_49e93fd29796", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.995652, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T19:30:16+00:00", "event_id": "ev_49e93fd29796", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T19:31:44+00:00", "event_id": "ev_49e93fd29796", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T19:33:40+00:00", "event_id": "ev_98cc8f74d993", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.995652, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T19:41:54+00:00", "event_id": "ev_98cc8f74d993", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T19:45:05+00:00", "event_id": "ev_98cc8f74d993", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T19:48:11+00:00", "event_id": "ev_db340419e0bf", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.995652, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T19:57:25+00:00", "event_id": "ev_db340419e0bf", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T19:58:52+00:00", "event_id": "ev_db340419e0bf", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T20:08:01+00:00", "event_id": "ev_cb12508b2fa1", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R2_UNANSWERED,DEV:dload,DEV:dinpkt,DEV:dbytes", "risk_score": 0.995169, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T20:17:13+00:00", "event_id": "ev_cb12508b2fa1", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T20:23:12+00:00", "event_id": "ev_cb12508b2fa1", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T20:24:52+00:00", "event_id": "ev_f5304d3cf8fc", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.995169, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T20:26:26+00:00", "event_id": "ev_f5304d3cf8fc", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T20:29:17+00:00", "event_id": "ev_f5304d3cf8fc", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T20:35:03+00:00", "event_id": "ev_3461ec05fcc9", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.995169, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T20:36:36+00:00", "event_id": "ev_3461ec05fcc9", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T20:41:09+00:00", "event_id": "ev_3461ec05fcc9", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T20:42:19+00:00", "event_id": "ev_7da0711e12da", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.995169, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T20:47:43+00:00", "event_id": "ev_7da0711e12da", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T20:47:56+00:00", "event_id": "ev_7da0711e12da", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T20:55:01+00:00", "event_id": "ev_27e2c6ae1cad", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.995169, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T20:55:35+00:00", "event_id": "ev_27e2c6ae1cad", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T20:57:32+00:00", "event_id": "ev_27e2c6ae1cad", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T20:59:17+00:00", "event_id": "ev_4b290c78c8cd", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:dur,DEV:sinpkt,DEV:dinpkt", "risk_score": 0.995169, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T21:07:35+00:00", "event_id": "ev_4b290c78c8cd", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T21:08:07+00:00", "event_id": "ev_4b290c78c8cd", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T21:12:25+00:00", "event_id": "ev_5e0100acb769", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,DEV:dur,DEV:tcprtt", "risk_score": 0.995169, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T21:18:20+00:00", "event_id": "ev_5e0100acb769", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T21:23:30+00:00", "event_id": "ev_5e0100acb769", "from": "reviewed", "reason": "simulated: score-only alert", "to": "dismissed"}
+{"actor": "detector", "at": "2000-01-02T21:30:18+00:00", "event_id": "ev_d4552063b883", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.994203, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T21:38:20+00:00", "event_id": "ev_d4552063b883", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T21:42:16+00:00", "event_id": "ev_d4552063b883", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T21:50:33+00:00", "event_id": "ev_c54deb95c612", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:ct_dst_sport_ltm,DEV:rate", "risk_score": 0.994203, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T21:53:44+00:00", "event_id": "ev_c54deb95c612", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T22:03:34+00:00", "event_id": "ev_c54deb95c612", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T22:08:37+00:00", "event_id": "ev_05df3a9d793f", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:ct_dst_sport_ltm", "risk_score": 0.994203, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T22:15:58+00:00", "event_id": "ev_05df3a9d793f", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T22:24:43+00:00", "event_id": "ev_05df3a9d793f", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T22:32:38+00:00", "event_id": "ev_3600cc2df2f4", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.994203, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T22:41:08+00:00", "event_id": "ev_3600cc2df2f4", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T22:46:30+00:00", "event_id": "ev_3600cc2df2f4", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T22:46:57+00:00", "event_id": "ev_76e226476441", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.994203, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T22:51:53+00:00", "event_id": "ev_76e226476441", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T22:53:42+00:00", "event_id": "ev_76e226476441", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T23:02:35+00:00", "event_id": "ev_d477ce69d448", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.994203, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T23:04:57+00:00", "event_id": "ev_d477ce69d448", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T23:07:14+00:00", "event_id": "ev_d477ce69d448", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T23:09:44+00:00", "event_id": "ev_0b13265e4704", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:ct_srv_src,DEV:rate", "risk_score": 0.99372, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T23:16:09+00:00", "event_id": "ev_0b13265e4704", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T23:21:52+00:00", "event_id": "ev_0b13265e4704", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T23:31:21+00:00", "event_id": "ev_578ded04707b", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.99372, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T23:35:31+00:00", "event_id": "ev_578ded04707b", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T23:38:21+00:00", "event_id": "ev_578ded04707b", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T23:38:51+00:00", "event_id": "ev_844438477fd5", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.99372, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T23:38:56+00:00", "event_id": "ev_844438477fd5", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-02T23:42:40+00:00", "event_id": "ev_844438477fd5", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-02T23:51:55+00:00", "event_id": "ev_ada868403e0a", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:ct_src_ltm", "risk_score": 0.99372, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-02T23:57:09+00:00", "event_id": "ev_ada868403e0a", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T00:06:05+00:00", "event_id": "ev_ada868403e0a", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T00:07:06+00:00", "event_id": "ev_a59be0a1c64e", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.993237, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T00:08:02+00:00", "event_id": "ev_a59be0a1c64e", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T00:16:22+00:00", "event_id": "ev_a59be0a1c64e", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T00:17:26+00:00", "event_id": "ev_3a4b467a2b4b", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.993237, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T00:17:58+00:00", "event_id": "ev_3a4b467a2b4b", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T00:22:01+00:00", "event_id": "ev_3a4b467a2b4b", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T00:31:15+00:00", "event_id": "ev_4007b1ad7da1", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.992271, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T00:38:08+00:00", "event_id": "ev_4007b1ad7da1", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T00:39:08+00:00", "event_id": "ev_4007b1ad7da1", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T00:47:30+00:00", "event_id": "ev_b8cb40bb8e46", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.992271, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T00:55:56+00:00", "event_id": "ev_b8cb40bb8e46", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T01:03:56+00:00", "event_id": "ev_b8cb40bb8e46", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T01:12:57+00:00", "event_id": "ev_9d477fcb243d", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.992271, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T01:15:21+00:00", "event_id": "ev_9d477fcb243d", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T01:25:08+00:00", "event_id": "ev_9d477fcb243d", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T01:28:21+00:00", "event_id": "ev_6955536090db", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:rate,DEV:ct_dst_sport_ltm", "risk_score": 0.992271, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T01:36:22+00:00", "event_id": "ev_6955536090db", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T01:42:10+00:00", "event_id": "ev_6955536090db", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T01:49:57+00:00", "event_id": "ev_652bcb3ad1e1", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.992271, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T01:56:14+00:00", "event_id": "ev_652bcb3ad1e1", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T02:02:39+00:00", "event_id": "ev_652bcb3ad1e1", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T02:08:49+00:00", "event_id": "ev_7ac77508d91a", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.992271, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T02:16:36+00:00", "event_id": "ev_7ac77508d91a", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T02:23:59+00:00", "event_id": "ev_7ac77508d91a", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T02:25:20+00:00", "event_id": "ev_4a088c612fee", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.991787, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T02:33:35+00:00", "event_id": "ev_4a088c612fee", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T02:38:57+00:00", "event_id": "ev_4a088c612fee", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T02:42:11+00:00", "event_id": "ev_9bb7f5c60508", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:ct_dst_sport_ltm", "risk_score": 0.991787, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T02:47:20+00:00", "event_id": "ev_9bb7f5c60508", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T02:57:00+00:00", "event_id": "ev_9bb7f5c60508", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T03:05:34+00:00", "event_id": "ev_17298ab48505", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:dur,DEV:sbytes", "risk_score": 0.991787, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T03:13:54+00:00", "event_id": "ev_17298ab48505", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T03:18:32+00:00", "event_id": "ev_17298ab48505", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T03:26:22+00:00", "event_id": "ev_07475924647b", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.991304, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T03:30:13+00:00", "event_id": "ev_07475924647b", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T03:37:05+00:00", "event_id": "ev_07475924647b", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T03:43:29+00:00", "event_id": "ev_dc638fe42d27", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.991304, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T03:45:59+00:00", "event_id": "ev_dc638fe42d27", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T03:48:39+00:00", "event_id": "ev_dc638fe42d27", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T03:49:16+00:00", "event_id": "ev_34cd383be85f", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.991304, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T03:50:40+00:00", "event_id": "ev_34cd383be85f", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T03:55:00+00:00", "event_id": "ev_34cd383be85f", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T03:59:47+00:00", "event_id": "ev_8033eb59c952", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.990821, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T04:01:26+00:00", "event_id": "ev_8033eb59c952", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T04:05:36+00:00", "event_id": "ev_8033eb59c952", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T04:11:38+00:00", "event_id": "ev_4882932be60b", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.990821, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T04:13:58+00:00", "event_id": "ev_4882932be60b", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T04:17:21+00:00", "event_id": "ev_4882932be60b", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T04:21:02+00:00", "event_id": "ev_b3e6feefca6d", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:rate,DEV:ct_src_dport_ltm", "risk_score": 0.990338, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T04:26:05+00:00", "event_id": "ev_b3e6feefca6d", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T04:29:45+00:00", "event_id": "ev_b3e6feefca6d", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T04:37:07+00:00", "event_id": "ev_1b791f7fc091", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.988889, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T04:40:24+00:00", "event_id": "ev_1b791f7fc091", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T04:44:44+00:00", "event_id": "ev_1b791f7fc091", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T04:48:32+00:00", "event_id": "ev_10f1a8228044", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:ct_ftp_cmd", "risk_score": 0.988889, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T04:50:22+00:00", "event_id": "ev_10f1a8228044", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T04:57:13+00:00", "event_id": "ev_10f1a8228044", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T04:59:35+00:00", "event_id": "ev_bf9825a8b0d7", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.988406, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T05:02:33+00:00", "event_id": "ev_bf9825a8b0d7", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T05:10:28+00:00", "event_id": "ev_bf9825a8b0d7", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T05:19:57+00:00", "event_id": "ev_296f9869b421", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.988406, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T05:26:39+00:00", "event_id": "ev_296f9869b421", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T05:35:48+00:00", "event_id": "ev_296f9869b421", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T05:44:20+00:00", "event_id": "ev_b572d90b01e5", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.988406, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T05:49:09+00:00", "event_id": "ev_b572d90b01e5", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T05:56:51+00:00", "event_id": "ev_b572d90b01e5", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T06:00:08+00:00", "event_id": "ev_16071adab0ff", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:ct_dst_sport_ltm", "risk_score": 0.987923, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T06:04:44+00:00", "event_id": "ev_16071adab0ff", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T06:10:05+00:00", "event_id": "ev_16071adab0ff", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T06:19:41+00:00", "event_id": "ev_fec4ec11984c", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.987923, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T06:28:10+00:00", "event_id": "ev_fec4ec11984c", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T06:33:04+00:00", "event_id": "ev_fec4ec11984c", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T06:39:35+00:00", "event_id": "ev_503e0cb6ee45", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:trans_depth,DEV:rate,DEV:ct_srv_src", "risk_score": 0.986957, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T06:41:37+00:00", "event_id": "ev_503e0cb6ee45", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T06:49:39+00:00", "event_id": "ev_503e0cb6ee45", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T06:55:11+00:00", "event_id": "ev_58fc1d75defd", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.986957, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T07:00:31+00:00", "event_id": "ev_58fc1d75defd", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T07:08:11+00:00", "event_id": "ev_58fc1d75defd", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T07:14:31+00:00", "event_id": "ev_43ee1b071373", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.986957, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T07:15:15+00:00", "event_id": "ev_43ee1b071373", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T07:18:08+00:00", "event_id": "ev_43ee1b071373", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T07:19:54+00:00", "event_id": "ev_94cb404db901", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:dur,DEV:rate", "risk_score": 0.986957, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T07:27:15+00:00", "event_id": "ev_94cb404db901", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T07:27:37+00:00", "event_id": "ev_94cb404db901", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T07:29:39+00:00", "event_id": "ev_d0ead593664a", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:ct_srv_src", "risk_score": 0.986957, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T07:35:37+00:00", "event_id": "ev_d0ead593664a", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T07:42:34+00:00", "event_id": "ev_d0ead593664a", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T07:47:36+00:00", "event_id": "ev_8023a2850646", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:rate", "risk_score": 0.986957, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T07:56:12+00:00", "event_id": "ev_8023a2850646", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T08:05:23+00:00", "event_id": "ev_8023a2850646", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T08:06:43+00:00", "event_id": "ev_fe5e5f2d767a", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:tcprtt", "risk_score": 0.98599, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T08:16:14+00:00", "event_id": "ev_fe5e5f2d767a", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T08:22:23+00:00", "event_id": "ev_fe5e5f2d767a", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T08:28:45+00:00", "event_id": "ev_cb1682c8107d", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.985507, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T08:29:42+00:00", "event_id": "ev_cb1682c8107d", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T08:35:55+00:00", "event_id": "ev_cb1682c8107d", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T08:43:10+00:00", "event_id": "ev_69afa22a3447", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:ct_dst_sport_ltm", "risk_score": 0.985507, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T08:48:58+00:00", "event_id": "ev_69afa22a3447", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T08:49:49+00:00", "event_id": "ev_69afa22a3447", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T08:55:03+00:00", "event_id": "ev_d45e49385680", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:trans_depth,DEV:ct_src_ltm", "risk_score": 0.985507, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T09:04:24+00:00", "event_id": "ev_d45e49385680", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T09:11:38+00:00", "event_id": "ev_d45e49385680", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T09:13:01+00:00", "event_id": "ev_ecbcbeb79e87", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.985507, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T09:22:37+00:00", "event_id": "ev_ecbcbeb79e87", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T09:32:12+00:00", "event_id": "ev_ecbcbeb79e87", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T09:33:54+00:00", "event_id": "ev_21df845fdef3", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:synack,DEV:sjit", "risk_score": 0.985024, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T09:41:54+00:00", "event_id": "ev_21df845fdef3", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T09:45:58+00:00", "event_id": "ev_21df845fdef3", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T09:51:54+00:00", "event_id": "ev_3e1a0bd955aa", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.985024, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T09:56:21+00:00", "event_id": "ev_3e1a0bd955aa", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T10:04:10+00:00", "event_id": "ev_3e1a0bd955aa", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T10:14:07+00:00", "event_id": "ev_e1243bb1ada1", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD", "risk_score": 0.982609, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T10:22:04+00:00", "event_id": "ev_e1243bb1ada1", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T10:31:22+00:00", "event_id": "ev_e1243bb1ada1", "from": "reviewed", "reason": "simulated: score-only alert", "to": "dismissed"}
+{"actor": "detector", "at": "2000-01-03T10:40:49+00:00", "event_id": "ev_727957ad333a", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:trans_depth", "risk_score": 0.982126, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T10:41:43+00:00", "event_id": "ev_727957ad333a", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T10:44:15+00:00", "event_id": "ev_727957ad333a", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T10:51:28+00:00", "event_id": "ev_7119530ac24e", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.982126, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T10:57:22+00:00", "event_id": "ev_7119530ac24e", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T10:57:53+00:00", "event_id": "ev_7119530ac24e", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T10:58:50+00:00", "event_id": "ev_da0ba81571b7", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.982126, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T11:04:02+00:00", "event_id": "ev_da0ba81571b7", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T11:10:12+00:00", "event_id": "ev_da0ba81571b7", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T11:11:53+00:00", "event_id": "ev_cb3611b4495a", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:sbytes,DEV:rate", "risk_score": 0.981643, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T11:13:36+00:00", "event_id": "ev_cb3611b4495a", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T11:14:54+00:00", "event_id": "ev_cb3611b4495a", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T11:20:33+00:00", "event_id": "ev_ca5fb92662fa", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.981643, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T11:20:38+00:00", "event_id": "ev_ca5fb92662fa", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T11:26:21+00:00", "event_id": "ev_ca5fb92662fa", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T11:31:07+00:00", "event_id": "ev_37387cabe4f8", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.981643, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T11:35:47+00:00", "event_id": "ev_37387cabe4f8", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T11:42:34+00:00", "event_id": "ev_37387cabe4f8", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T11:47:48+00:00", "event_id": "ev_59023d919d8b", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.981159, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T11:55:04+00:00", "event_id": "ev_59023d919d8b", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T12:02:42+00:00", "event_id": "ev_59023d919d8b", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T12:11:54+00:00", "event_id": "ev_b01c8bfbc867", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.980676, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T12:19:53+00:00", "event_id": "ev_b01c8bfbc867", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T12:25:04+00:00", "event_id": "ev_b01c8bfbc867", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T12:29:59+00:00", "event_id": "ev_7cca6a89daa8", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.980676, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T12:32:21+00:00", "event_id": "ev_7cca6a89daa8", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T12:38:21+00:00", "event_id": "ev_7cca6a89daa8", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T12:39:45+00:00", "event_id": "ev_4833ba372849", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:ct_ftp_cmd", "risk_score": 0.980676, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T12:49:03+00:00", "event_id": "ev_4833ba372849", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T12:57:30+00:00", "event_id": "ev_4833ba372849", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T12:58:42+00:00", "event_id": "ev_58703a3eb4f1", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.980676, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T13:06:33+00:00", "event_id": "ev_58703a3eb4f1", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T13:07:44+00:00", "event_id": "ev_58703a3eb4f1", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T13:14:57+00:00", "event_id": "ev_ff8a85051361", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:ackdat", "risk_score": 0.980193, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T13:15:50+00:00", "event_id": "ev_ff8a85051361", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T13:20:43+00:00", "event_id": "ev_ff8a85051361", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T13:27:18+00:00", "event_id": "ev_f37f07b4b83e", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:ct_src_dport_ltm", "risk_score": 0.979227, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T13:34:35+00:00", "event_id": "ev_f37f07b4b83e", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T13:38:46+00:00", "event_id": "ev_f37f07b4b83e", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T13:47:59+00:00", "event_id": "ev_fda560c175c9", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.979227, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T13:55:43+00:00", "event_id": "ev_fda560c175c9", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T13:57:48+00:00", "event_id": "ev_fda560c175c9", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T14:04:31+00:00", "event_id": "ev_05cfc0ff414a", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.979227, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T14:11:49+00:00", "event_id": "ev_05cfc0ff414a", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T14:15:09+00:00", "event_id": "ev_05cfc0ff414a", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T14:22:32+00:00", "event_id": "ev_5e970cab5b2e", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:sbytes", "risk_score": 0.978261, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T14:31:31+00:00", "event_id": "ev_5e970cab5b2e", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T14:39:41+00:00", "event_id": "ev_5e970cab5b2e", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T14:47:18+00:00", "event_id": "ev_39e15e13897c", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:trans_depth", "risk_score": 0.978261, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T14:53:39+00:00", "event_id": "ev_39e15e13897c", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T14:56:22+00:00", "event_id": "ev_39e15e13897c", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T15:04:19+00:00", "event_id": "ev_9da33a2b91da", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:dur", "risk_score": 0.977778, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T15:07:58+00:00", "event_id": "ev_9da33a2b91da", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T15:13:17+00:00", "event_id": "ev_9da33a2b91da", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T15:16:26+00:00", "event_id": "ev_1f0c4de2b046", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:dur", "risk_score": 0.977778, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T15:19:34+00:00", "event_id": "ev_1f0c4de2b046", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T15:21:09+00:00", "event_id": "ev_1f0c4de2b046", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T15:30:45+00:00", "event_id": "ev_77bd1f503283", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.977778, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T15:32:14+00:00", "event_id": "ev_77bd1f503283", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T15:33:06+00:00", "event_id": "ev_77bd1f503283", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T15:42:27+00:00", "event_id": "ev_f9ccb0a8cd2b", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:is_sm_ips_ports,DEV:dloss", "risk_score": 0.976812, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T15:48:00+00:00", "event_id": "ev_f9ccb0a8cd2b", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T15:52:23+00:00", "event_id": "ev_f9ccb0a8cd2b", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T15:59:45+00:00", "event_id": "ev_d21c7a75b956", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.976329, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T16:03:35+00:00", "event_id": "ev_d21c7a75b956", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T16:04:52+00:00", "event_id": "ev_d21c7a75b956", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T16:12:10+00:00", "event_id": "ev_2bde1aa8b8c2", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.976329, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T16:13:56+00:00", "event_id": "ev_2bde1aa8b8c2", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T16:19:28+00:00", "event_id": "ev_2bde1aa8b8c2", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T16:28:57+00:00", "event_id": "ev_f661262e417a", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:ct_dst_sport_ltm", "risk_score": 0.975362, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T16:38:18+00:00", "event_id": "ev_f661262e417a", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T16:41:55+00:00", "event_id": "ev_f661262e417a", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T16:49:43+00:00", "event_id": "ev_3d9a18d4883e", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.973913, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T16:55:50+00:00", "event_id": "ev_3d9a18d4883e", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T17:00:38+00:00", "event_id": "ev_3d9a18d4883e", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T17:02:02+00:00", "event_id": "ev_b8fe36f8876f", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.973913, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T17:05:48+00:00", "event_id": "ev_b8fe36f8876f", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T17:12:19+00:00", "event_id": "ev_b8fe36f8876f", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T17:22:10+00:00", "event_id": "ev_cc767ffb91de", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.973913, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T17:22:13+00:00", "event_id": "ev_cc767ffb91de", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T17:29:23+00:00", "event_id": "ev_cc767ffb91de", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T17:37:50+00:00", "event_id": "ev_48ed5938d8e0", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:ct_dst_ltm", "risk_score": 0.973913, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T17:47:20+00:00", "event_id": "ev_48ed5938d8e0", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T17:51:34+00:00", "event_id": "ev_48ed5938d8e0", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T17:52:45+00:00", "event_id": "ev_a9c929db6013", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.973913, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T17:55:28+00:00", "event_id": "ev_a9c929db6013", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T18:03:58+00:00", "event_id": "ev_a9c929db6013", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T18:12:44+00:00", "event_id": "ev_35088de2bce2", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:ct_ftp_cmd", "risk_score": 0.973913, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T18:19:06+00:00", "event_id": "ev_35088de2bce2", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T18:20:20+00:00", "event_id": "ev_35088de2bce2", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T18:21:34+00:00", "event_id": "ev_d387a34114eb", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.971981, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T18:26:21+00:00", "event_id": "ev_d387a34114eb", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T18:32:14+00:00", "event_id": "ev_d387a34114eb", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T18:32:34+00:00", "event_id": "ev_fa978789171c", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD", "risk_score": 0.971981, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T18:39:25+00:00", "event_id": "ev_fa978789171c", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T18:44:52+00:00", "event_id": "ev_fa978789171c", "from": "reviewed", "reason": "simulated: score-only alert", "to": "dismissed"}
+{"actor": "detector", "at": "2000-01-03T18:45:00+00:00", "event_id": "ev_f155616f461a", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.971014, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T18:45:58+00:00", "event_id": "ev_f155616f461a", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T18:50:31+00:00", "event_id": "ev_f155616f461a", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T18:57:44+00:00", "event_id": "ev_6c189be9b000", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,DEV:is_sm_ips_ports,DEV:trans_depth", "risk_score": 0.971014, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T19:05:59+00:00", "event_id": "ev_6c189be9b000", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T19:10:18+00:00", "event_id": "ev_6c189be9b000", "from": "reviewed", "reason": "simulated: score-only alert", "to": "dismissed"}
+{"actor": "detector", "at": "2000-01-03T19:13:15+00:00", "event_id": "ev_3c9c8f7c52df", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,DEV:ct_flw_http_mthd,DEV:tcprtt", "risk_score": 0.970048, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T19:22:56+00:00", "event_id": "ev_3c9c8f7c52df", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T19:27:31+00:00", "event_id": "ev_3c9c8f7c52df", "from": "reviewed", "reason": "simulated: score-only alert", "to": "dismissed"}
+{"actor": "detector", "at": "2000-01-03T19:30:40+00:00", "event_id": "ev_4c4445ff57fc", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.969565, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T19:35:05+00:00", "event_id": "ev_4c4445ff57fc", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T19:35:13+00:00", "event_id": "ev_4c4445ff57fc", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T19:38:14+00:00", "event_id": "ev_2cf7e97c404c", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.969565, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T19:43:23+00:00", "event_id": "ev_2cf7e97c404c", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T19:52:34+00:00", "event_id": "ev_2cf7e97c404c", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T19:59:57+00:00", "event_id": "ev_6f9eca6f50fb", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.968599, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T20:07:45+00:00", "event_id": "ev_6f9eca6f50fb", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T20:13:12+00:00", "event_id": "ev_6f9eca6f50fb", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T20:14:19+00:00", "event_id": "ev_d31cd7debcfc", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.968599, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T20:18:14+00:00", "event_id": "ev_d31cd7debcfc", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T20:28:12+00:00", "event_id": "ev_d31cd7debcfc", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T20:28:39+00:00", "event_id": "ev_4dc9f40b00ee", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.96715, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T20:37:26+00:00", "event_id": "ev_4dc9f40b00ee", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T20:44:17+00:00", "event_id": "ev_4dc9f40b00ee", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T20:47:08+00:00", "event_id": "ev_d4f5d45b61b7", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.96715, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T20:54:55+00:00", "event_id": "ev_d4f5d45b61b7", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T21:03:17+00:00", "event_id": "ev_d4f5d45b61b7", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T21:03:43+00:00", "event_id": "ev_573c04798f90", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.966667, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T21:04:47+00:00", "event_id": "ev_573c04798f90", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T21:11:26+00:00", "event_id": "ev_573c04798f90", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T21:21:25+00:00", "event_id": "ev_72382fc3b364", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.966667, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T21:21:40+00:00", "event_id": "ev_72382fc3b364", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T21:28:19+00:00", "event_id": "ev_72382fc3b364", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T21:29:41+00:00", "event_id": "ev_8ad8a3e7061d", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:ct_ftp_cmd", "risk_score": 0.965217, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T21:36:11+00:00", "event_id": "ev_8ad8a3e7061d", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T21:42:25+00:00", "event_id": "ev_8ad8a3e7061d", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T21:43:20+00:00", "event_id": "ev_6732cf9cccc2", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.965217, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T21:50:08+00:00", "event_id": "ev_6732cf9cccc2", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T21:59:06+00:00", "event_id": "ev_6732cf9cccc2", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T22:07:44+00:00", "event_id": "ev_0b4809448429", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.964251, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T22:08:02+00:00", "event_id": "ev_0b4809448429", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T22:10:30+00:00", "event_id": "ev_0b4809448429", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T22:12:55+00:00", "event_id": "ev_2ea3a036d50a", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,DEV:ackdat", "risk_score": 0.964251, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T22:17:27+00:00", "event_id": "ev_2ea3a036d50a", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T22:18:53+00:00", "event_id": "ev_2ea3a036d50a", "from": "reviewed", "reason": "simulated: score-only alert", "to": "dismissed"}
+{"actor": "detector", "at": "2000-01-03T22:27:25+00:00", "event_id": "ev_8cb08c4a2056", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.964251, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T22:35:11+00:00", "event_id": "ev_8cb08c4a2056", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T22:43:16+00:00", "event_id": "ev_8cb08c4a2056", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T22:45:15+00:00", "event_id": "ev_89f73d583d37", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,DEV:tcprtt", "risk_score": 0.963285, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T22:45:24+00:00", "event_id": "ev_89f73d583d37", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T22:54:30+00:00", "event_id": "ev_89f73d583d37", "from": "reviewed", "reason": "simulated: score-only alert", "to": "dismissed"}
+{"actor": "detector", "at": "2000-01-03T22:57:24+00:00", "event_id": "ev_b32e7c3ec054", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD", "risk_score": 0.961353, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T23:03:58+00:00", "event_id": "ev_b32e7c3ec054", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T23:13:03+00:00", "event_id": "ev_b32e7c3ec054", "from": "reviewed", "reason": "simulated: score-only alert", "to": "dismissed"}
+{"actor": "detector", "at": "2000-01-03T23:13:25+00:00", "event_id": "ev_68545dc4d77b", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:sbytes", "risk_score": 0.961353, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T23:13:29+00:00", "event_id": "ev_68545dc4d77b", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T23:13:33+00:00", "event_id": "ev_68545dc4d77b", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T23:15:07+00:00", "event_id": "ev_3ee271bb0627", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.961353, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T23:15:38+00:00", "event_id": "ev_3ee271bb0627", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T23:23:50+00:00", "event_id": "ev_3ee271bb0627", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-03T23:29:53+00:00", "event_id": "ev_bc883f15cbbb", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD", "risk_score": 0.961353, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T23:39:41+00:00", "event_id": "ev_bc883f15cbbb", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-03T23:47:42+00:00", "event_id": "ev_bc883f15cbbb", "from": "reviewed", "reason": "simulated: score-only alert", "to": "dismissed"}
+{"actor": "detector", "at": "2000-01-03T23:57:19+00:00", "event_id": "ev_21cc40e171d1", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.95942, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-03T23:59:42+00:00", "event_id": "ev_21cc40e171d1", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-04T00:02:35+00:00", "event_id": "ev_21cc40e171d1", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-04T00:11:04+00:00", "event_id": "ev_7e7ddba4c043", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.95942, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-04T00:13:31+00:00", "event_id": "ev_7e7ddba4c043", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-04T00:14:06+00:00", "event_id": "ev_7e7ddba4c043", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-04T00:20:47+00:00", "event_id": "ev_bfae3de15b13", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:ct_dst_sport_ltm,DEV:rate", "risk_score": 0.957488, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-04T00:28:47+00:00", "event_id": "ev_bfae3de15b13", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-04T00:38:27+00:00", "event_id": "ev_bfae3de15b13", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-04T00:47:43+00:00", "event_id": "ev_fedcbb5f2e6a", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD", "risk_score": 0.955556, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-04T00:48:56+00:00", "event_id": "ev_fedcbb5f2e6a", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-04T00:56:39+00:00", "event_id": "ev_fedcbb5f2e6a", "from": "reviewed", "reason": "simulated: score-only alert", "to": "dismissed"}
+{"actor": "detector", "at": "2000-01-04T01:05:06+00:00", "event_id": "ev_8bdb0a593519", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.955556, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-04T01:12:05+00:00", "event_id": "ev_8bdb0a593519", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-04T01:20:17+00:00", "event_id": "ev_8bdb0a593519", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-04T01:28:39+00:00", "event_id": "ev_34a211472d15", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.955556, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-04T01:33:07+00:00", "event_id": "ev_34a211472d15", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-04T01:33:32+00:00", "event_id": "ev_34a211472d15", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-04T01:38:06+00:00", "event_id": "ev_e6e0757a62be", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:rate", "risk_score": 0.954106, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-04T01:40:07+00:00", "event_id": "ev_e6e0757a62be", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-04T01:41:16+00:00", "event_id": "ev_e6e0757a62be", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-04T01:42:31+00:00", "event_id": "ev_8097bb77535f", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.953623, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-04T01:49:29+00:00", "event_id": "ev_8097bb77535f", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-04T01:54:32+00:00", "event_id": "ev_8097bb77535f", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-04T01:59:56+00:00", "event_id": "ev_25a97a26cbf3", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:ct_ftp_cmd", "risk_score": 0.953623, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-04T02:07:23+00:00", "event_id": "ev_25a97a26cbf3", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-04T02:12:52+00:00", "event_id": "ev_25a97a26cbf3", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-04T02:19:10+00:00", "event_id": "ev_4c4d8f9748ca", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.953623, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-04T02:20:02+00:00", "event_id": "ev_4c4d8f9748ca", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-04T02:28:32+00:00", "event_id": "ev_4c4d8f9748ca", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-04T02:33:01+00:00", "event_id": "ev_69c04fc65fc5", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD", "risk_score": 0.952657, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-04T02:34:34+00:00", "event_id": "ev_69c04fc65fc5", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-04T02:42:42+00:00", "event_id": "ev_69c04fc65fc5", "from": "reviewed", "reason": "simulated: score-only alert", "to": "dismissed"}
+{"actor": "detector", "at": "2000-01-04T02:50:03+00:00", "event_id": "ev_a1b0b08b780e", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.952174, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-04T02:50:35+00:00", "event_id": "ev_a1b0b08b780e", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-04T02:52:31+00:00", "event_id": "ev_a1b0b08b780e", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-04T02:52:41+00:00", "event_id": "ev_430bd30ae2a3", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:rate", "risk_score": 0.951208, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-04T02:55:24+00:00", "event_id": "ev_430bd30ae2a3", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-04T02:56:24+00:00", "event_id": "ev_430bd30ae2a3", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-04T03:03:30+00:00", "event_id": "ev_897f769b0cfe", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:synack", "risk_score": 0.950725, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-04T03:08:44+00:00", "event_id": "ev_897f769b0cfe", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-04T03:18:32+00:00", "event_id": "ev_897f769b0cfe", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-04T03:26:01+00:00", "event_id": "ev_5d51f4caf8b6", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:ct_src_ltm", "risk_score": 0.949758, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-04T03:32:08+00:00", "event_id": "ev_5d51f4caf8b6", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-04T03:37:14+00:00", "event_id": "ev_5d51f4caf8b6", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-04T03:37:47+00:00", "event_id": "ev_96d7b0e605b9", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD", "risk_score": 0.949758, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-04T03:38:30+00:00", "event_id": "ev_96d7b0e605b9", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-04T03:44:40+00:00", "event_id": "ev_96d7b0e605b9", "from": "reviewed", "reason": "simulated: score-only alert", "to": "dismissed"}
+{"actor": "detector", "at": "2000-01-04T03:44:43+00:00", "event_id": "ev_9a62d6375205", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD", "risk_score": 0.949758, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-04T03:45:09+00:00", "event_id": "ev_9a62d6375205", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-04T03:47:21+00:00", "event_id": "ev_9a62d6375205", "from": "reviewed", "reason": "simulated: score-only alert", "to": "dismissed"}
+{"actor": "detector", "at": "2000-01-04T03:56:11+00:00", "event_id": "ev_998914df79ed", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.949275, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-04T04:00:46+00:00", "event_id": "ev_998914df79ed", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-04T04:07:52+00:00", "event_id": "ev_998914df79ed", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-04T04:11:59+00:00", "event_id": "ev_806a03bda833", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD", "risk_score": 0.948792, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-04T04:13:43+00:00", "event_id": "ev_806a03bda833", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-04T04:17:26+00:00", "event_id": "ev_806a03bda833", "from": "reviewed", "reason": "simulated: score-only alert", "to": "dismissed"}
+{"actor": "detector", "at": "2000-01-04T04:18:21+00:00", "event_id": "ev_97de828fe4f5", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD", "risk_score": 0.947826, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-04T04:26:03+00:00", "event_id": "ev_97de828fe4f5", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-04T04:27:53+00:00", "event_id": "ev_97de828fe4f5", "from": "reviewed", "reason": "simulated: score-only alert", "to": "dismissed"}
+{"actor": "detector", "at": "2000-01-04T04:31:39+00:00", "event_id": "ev_3c56e5f8debb", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.945894, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-04T04:41:27+00:00", "event_id": "ev_3c56e5f8debb", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-04T04:47:22+00:00", "event_id": "ev_3c56e5f8debb", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-04T04:51:57+00:00", "event_id": "ev_801d735d5204", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.945411, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-04T04:57:23+00:00", "event_id": "ev_801d735d5204", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-04T05:05:13+00:00", "event_id": "ev_801d735d5204", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-04T05:07:46+00:00", "event_id": "ev_7116af4f3f93", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:ct_ftp_cmd", "risk_score": 0.945411, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-04T05:14:08+00:00", "event_id": "ev_7116af4f3f93", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-04T05:22:51+00:00", "event_id": "ev_7116af4f3f93", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-04T05:28:34+00:00", "event_id": "ev_63b5f3bf2f74", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.943478, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-04T05:33:02+00:00", "event_id": "ev_63b5f3bf2f74", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-04T05:34:29+00:00", "event_id": "ev_63b5f3bf2f74", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-04T05:36:58+00:00", "event_id": "ev_0c7c6eea9bc5", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,DEV:tcprtt,DEV:synack", "risk_score": 0.942995, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-04T05:46:25+00:00", "event_id": "ev_0c7c6eea9bc5", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-04T05:51:50+00:00", "event_id": "ev_0c7c6eea9bc5", "from": "reviewed", "reason": "simulated: score-only alert", "to": "dismissed"}
+{"actor": "detector", "at": "2000-01-04T05:54:51+00:00", "event_id": "ev_ef79d1f7588b", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD", "risk_score": 0.942029, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-04T05:59:02+00:00", "event_id": "ev_ef79d1f7588b", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-04T06:04:49+00:00", "event_id": "ev_ef79d1f7588b", "from": "reviewed", "reason": "simulated: score-only alert", "to": "dismissed"}
+{"actor": "detector", "at": "2000-01-04T06:10:11+00:00", "event_id": "ev_5bc6db271fbf", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST,DEV:ct_dst_sport_ltm", "risk_score": 0.941546, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-04T06:17:11+00:00", "event_id": "ev_5bc6db271fbf", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-04T06:19:46+00:00", "event_id": "ev_5bc6db271fbf", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-04T06:26:15+00:00", "event_id": "ev_fb6255bd36bc", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.941063, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-04T06:30:41+00:00", "event_id": "ev_fb6255bd36bc", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-04T06:40:05+00:00", "event_id": "ev_fb6255bd36bc", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-04T06:41:40+00:00", "event_id": "ev_7173856ef9c4", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.94058, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-04T06:43:09+00:00", "event_id": "ev_7173856ef9c4", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-04T06:47:46+00:00", "event_id": "ev_7173856ef9c4", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-04T06:52:51+00:00", "event_id": "ev_f39513670d21", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R2_UNANSWERED,DEV:dload,DEV:dbytes,DEV:dmean", "risk_score": 0.94058, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-04T06:59:45+00:00", "event_id": "ev_f39513670d21", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-04T07:03:48+00:00", "event_id": "ev_f39513670d21", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}
+{"actor": "detector", "at": "2000-01-04T07:12:56+00:00", "event_id": "ev_1c47ce1cd3fa", "from": null, "reason": "alert raised: SCORE_ABOVE_THRESHOLD,R1_FANIN_BURST", "risk_score": 0.94058, "to": "open"}
+{"actor": "demo-policy", "at": "2000-01-04T07:17:41+00:00", "event_id": "ev_1c47ce1cd3fa", "from": "open", "reason": "simulated review", "to": "reviewed"}
+{"actor": "demo-policy", "at": "2000-01-04T07:18:59+00:00", "event_id": "ev_1c47ce1cd3fa", "from": "reviewed", "reason": "simulated: rule reason code present", "to": "escalated"}

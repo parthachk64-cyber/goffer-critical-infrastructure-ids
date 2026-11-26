@@ -93,3 +93,8 @@ commercial use to be agreed with its authors; not redistributed. Dependencies ke
 
 Public lab flow records are not critical-infrastructure data; there are no sequences, timestamps or deployment logs; the interviews the article mentions are unavailable; SVM, CNN and RNN are discussed
 in the article but not implemented (reasons in `docs/paper-map.md`). Treat the numbers as a worked, reproducible comparison, not as evidence that any system is safe to deploy.
+
+## Committed example runs
+
+`results/synthetic-demo-example/` is a complete demo run (inputs hashed in its manifest, source revision recorded). `results/unsw-nb15-example/` holds the benchmark's manifest, metrics,
+report, latency and plots; its `predictions.csv` (82k rows) is not committed, so run `benchmark` to regenerate the full set. A second benchmark run at the recorded revision reproduced every count identically.

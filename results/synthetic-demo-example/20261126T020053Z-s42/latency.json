@@ -1,0 +1,56 @@
+{
+  "hardware": {
+    "machine": "AMD64",
+    "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+    "cpu_count": 12,
+    "system": "Windows 11",
+    "python": "3.12.13"
+  },
+  "batch_size": 256,
+  "unit": "milliseconds per batch (wall clock)",
+  "excludes": "simulated analyst delay; model fitting; disk I/O",
+  "preprocessing": {
+    "p50_ms": 14.198400000168476,
+    "p95_ms": 41.079914999500026,
+    "warmup": 5,
+    "repeats": 30
+  },
+  "models": {
+    "majority_reference": {
+      "p50_ms": 0.005299996701069176,
+      "p95_ms": 0.005699999746866524,
+      "warmup": 5,
+      "repeats": 30
+    },
+    "rule_baseline": {
+      "p50_ms": 2.4269500027003232,
+      "p95_ms": 6.164460002764827,
+      "warmup": 5,
+      "repeats": 30
+    },
+    "decision_tree": {
+      "p50_ms": 0.6319000021903776,
+      "p95_ms": 4.62461499519122,
+      "warmup": 5,
+      "repeats": 30
+    },
+    "isolation_forest": {
+      "p50_ms": 193.17149999915273,
+      "p95_ms": 333.4412750013141,
+      "warmup": 5,
+      "repeats": 30
+    },
+    "mlp": {
+      "p50_ms": 1.1889000052178744,
+      "p95_ms": 6.375570000454898,
+      "warmup": 5,
+      "repeats": 30
+    },
+    "hybrid_iso_rule": {
+      "p50_ms": 189.62770000143792,
+      "p95_ms": 418.94453999848326,
+      "warmup": 5,
+      "repeats": 30
+    }
+  }
+}

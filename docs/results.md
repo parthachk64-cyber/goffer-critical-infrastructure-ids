@@ -25,7 +25,7 @@ What it shows, and what it does not:
 - The majority reference reaches F1 0.710 only because attacks are the majority (55%) in this partition; read F1 against it, and prefer AP and FPR.
 - **Duplicates.** 8,542 of 82,332 test rows (10.4%) have an exact model-input duplicate in the training file, 524 of them with a conflicting label, and 84,049 training rows are internal duplicates. Excluding the overlapping test rows, F1 falls slightly (tree 0.877 to 0.862, MLP 0.892 to 0.879, isolation forest 0.787 to 0.765). So part of the headline is memorisation of repeated rows; the full table is in the report.
 - Attack-category recall is available from `predictions.csv` (`attack_cat` is evaluation-only) but is not interpreted here.
-- Inference latency (batch of 256 rows, 5 warm-up, 30 repetitions, Windows 11, 12 logical CPUs, Python 3.12): p50 per batch about 0.7 ms (tree), 5 ms (MLP), 6 ms (rule), 255 ms (Isolation Forest), 45 ms preprocessing. Timings vary between runs and machines and exclude any simulated analyst delay.
+- Inference latency (batch of 256 rows, 5 warm-up, 30 repetitions, Windows 11, 12 logical CPUs, Python 3.12): p50 per batch about 0.6 ms (tree), 2.4 ms (MLP), 2.1 ms (rule), 166 ms (Isolation Forest), 12.6 ms preprocessing. Timings vary between runs and machines and exclude any simulated analyst delay.
 
 ## 2. Synthetic demonstration (not real traffic)
 
